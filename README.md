@@ -14,11 +14,11 @@
 
 This mod adds interjections and area comments to every base companion in both BG1 and BG2 (including Beamdog NPCs) to the IWD campaign. This should make the IWD campaign much more lively for those playing it as part of their EET playthroughs.
 
--About 2000 lines added through existing dialogue or area comments.
+-About 2000 lines added as interjections during npc dialogue or area comments.
 
--IWD2 only has very limited interjections (only in Targos). This may be expanded on later.
+-IWD2 only has very limited interjections (only in Targos). This may be expanded on in a future release.
 
--SOD companions are not included (I don't know them well, and besides I don't think playing IWD within the SOD campaign makes much sense anyway)
+-SOD companions are not included. 
 
 ### Installation :
 
