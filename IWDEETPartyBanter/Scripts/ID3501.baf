@@ -1,0 +1,25 @@
+IF
+  Global("WIHexxKressTomb","ID3501",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Hexxxat")
+  InMyArea("Hexxat") 
+  !StateCheck("Hexxat",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIHexxKressTomb","ID3501",1)
+	DisplayString("Hexxat",~This tomb’s construction is much more elaborate than the earlier ones we’ve visited. The traps here may be of similar construction to what we’ve found in the other crypts but will be much more frequent. Of course since this is the central tomb of the man who commissioned it, it would be the most well defended. I should scout ahead and verify each area is safe before we proceed.~)
+END
+
+IF
+  Global("WIMontKressTomb","ID3501",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Montaron")
+  InMyArea("Montaron") 
+  !StateCheck("Montaron",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIMontKressTomb","ID3501",1)
+	DisplayString("Montaron",~Grr... I hate dank tombs... I hate shamblin' bones... I hate pressure plates and tripwires... been in ten tombs too many because of that blasted wizard.~)
+END

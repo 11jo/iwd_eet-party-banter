@@ -1,0 +1,25 @@
+IF
+  Global("WIAlorValeShad","ID3000",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Alora")
+  InMyArea("Alora") 
+  !StateCheck("Alora",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIAlorValeShad","ID3000",1)
+	DisplayString("Alora",~Oooo… it’s really spooooky here. Hey what’s that over th… BOO! Haha did I getcha?~)
+END
+
+IF
+  Global("WIAnomValeShad","ID3000",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Anomen")
+  InMyArea("Anomen") 
+  !StateCheck("Anomen",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIAnomValeShad","ID3000",1)
+	DisplayString("Anomen",~A festering den of evil if I ever beheld one. Come, let us purge the shadow from every crevice. The light of Helm shall guide our path!~)
+END

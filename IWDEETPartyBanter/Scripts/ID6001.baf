@@ -1,0 +1,25 @@
+IF
+  Global("WIVicoDDEntry","ID6001",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Viconia")
+  InMyArea("Viconia") 
+  !StateCheck("Viconia",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIVicoDDEntry","ID6001",1)
+	DisplayString("Viconia",~This cavern goes deep. We drow are attuned to such things. It may even lead into the Underdark itself.~)
+END
+
+IF
+  Global("WICernDDEntry","ID6001",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Cernd")
+  InMyArea("Cernd") 
+  !StateCheck("Cernd",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WICernDDEntry","ID6001",1)
+	DisplayString("Cernd",~See the mushroom groves, which reflect the nature of the forests above ground but without a need for light to sustain them. Nature truly is miraculous in all of its aspects.~)
+END

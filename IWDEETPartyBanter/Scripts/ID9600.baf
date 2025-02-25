@@ -1,0 +1,25 @@
+IF
+  Global("WIKhalSeaofIce","ID9600",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Khalid")
+  InMyArea("Khalid") 
+  !StateCheck("Khalid",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIKhalSeaofIce","ID9600",1)
+	DisplayString("Khalid",~R-ready yourselves, we must assault the dragon's fortress b-before they can array a defense against us. Form up, and st-strike quickly.~)
+END
+
+IF
+  Global("WIMazzSeaofIce","ID9600",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Mazzy")
+  InMyArea("Mazzy") 
+  !StateCheck("Mazzy",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIMazzSeaofIce","ID9600",1)
+	DisplayString("Mazzy",~Then this is where it ends. Though I feel a bitter sadness before us, we must commit to the task and ensure the Ten Towns are safe once again. Onward friends!~)
+END

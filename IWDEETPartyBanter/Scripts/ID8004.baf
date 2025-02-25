@@ -1,0 +1,25 @@
+IF
+  Global("WIAeriGnomCamp","ID8004",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Aerie")
+  InMyArea("Aerie") 
+  !StateCheck("Aerie",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIAeriGnomCamp","ID8004",1)
+	DisplayString("Aerie",~It's refreshing to see the gnomish people have been able to escape into this cave. I wonder if mister Quayle has any relatives around here *giggles*.~)
+END
+
+IF
+  Global("WIQuayGnomCamp","ID8004",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Quayle")
+  InMyArea("Quayle") 
+  !StateCheck("Quayle",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIQuayGnomCamp","ID8004",1)
+	DisplayString("Quayle",~Wow, impressive. Impressively STUPID that is. What a great idea out right under the nose of slavers, I'm in awe of their briliance. That's sarcasm, I'm being sarcastic, by the way. Not that Svirfneblins would know sarcasm from a hole in the ground. Dinguses, each and every one of them.~)
+END

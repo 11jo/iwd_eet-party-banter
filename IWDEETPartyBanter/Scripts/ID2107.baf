@@ -1,0 +1,26 @@
+IF 
+  Global("WIYoshKuldIlmater","ID2107",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Yoshimo")
+  InMyArea("Yoshimo")
+  !StateCheck("Yoshimo",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIYoshKuldIlmater","ID2107",1)
+	DisplayStringHead("Yoshimo",~*bows his head when you enter the Temple. He spots that you noticed*~)
+	DisplayString("Yoshimo",~Ah, You could say I have a great... respect for the god of merciful suffering. An odd quirk of my character, you need not give it any thought.~)
+END
+
+IF 
+  Global("WIKagaKuldIlmater","ID2107",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Kagain")
+  InMyArea("Kagain")
+  !StateCheck("Kagain",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIKagaKuldIlmater","ID2107",1)
+	DisplayString("Kagain",~I better not catch any of you bringing a single copper piece within a stone's throw of that donation box.~)
+END

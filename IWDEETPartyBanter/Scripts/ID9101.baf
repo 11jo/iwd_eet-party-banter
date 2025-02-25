@@ -1,0 +1,25 @@
+IF
+  Global("WIEldoWhistleGallo","ID9101",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Eldoth")
+  InMyArea("Eldoth")
+  !StateCheck("Eldoth",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIEldoWhistleGallo","ID9101",1)
+	DisplayString("Eldoth",~You know, not such a bad little tavern for being so remote. What say we have a few drinks and see if we can find any frontier lasses to warm our laps with.~)
+END
+
+IF
+  Global("WIImoeWhistleGallo","ID9101",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Imoen")
+  InMyArea("Imoen")
+  !StateCheck("Imoen",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIImoeWhistleGallo","ID9101",1)
+	DisplayString("Imoen",~Betcha this is the kinda place where you can get some great tales from the locals. Maybe some clues to things goin' around in the area. You order a round, I'll get to deploying my famous disarming charm.~)
+END

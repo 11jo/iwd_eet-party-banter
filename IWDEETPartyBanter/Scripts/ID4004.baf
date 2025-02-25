@@ -1,0 +1,12 @@
+IF
+  Global("WIJaheDragEye","ID4004",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Jaheira")
+  InParty("Jaheira")
+  !StateCheck("Jaheira",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIJaheDragEye","ID4004",1)
+	DisplayString("Jaheira",~I do not trust the look of this place. For such a serene temple to come at the bottom of so much death and horror, we should be doubly suspicious of what we find.~)
+END

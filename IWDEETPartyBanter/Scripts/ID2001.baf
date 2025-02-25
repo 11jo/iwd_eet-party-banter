@@ -1,0 +1,12 @@
+IF
+  Global("WIAlorGobCaveEx","ID2001",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Alora")
+  InMyArea("Alora")
+  !StateCheck("Alora",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIAlorGobCaveEx","ID2001",1)
+	DisplayStringHead("Alora",~Oh boy, it sure is chilly. I should have worn shoes. I’ll lose feeling in my little toesies!~)
+END

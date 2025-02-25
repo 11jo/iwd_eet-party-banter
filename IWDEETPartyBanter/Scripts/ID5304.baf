@@ -1,0 +1,12 @@
+IF
+  Global("WIJaheSevArbor","ID5304",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Jaheira")
+  InMyArea("Jaheira") 
+  !StateCheck("Jaheira",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIJaheSevArbor","ID5304",1)
+	DisplayString("Jaheira",~Nature once was an honored guest here. Even in ruin however, it still survives even just barely, and with proper nourishment could grow beautiful once more. A lesson we could all learn from.~)
+END

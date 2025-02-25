@@ -1,0 +1,25 @@
+IF
+  Global("WIKeldLDDPoq","ID8013",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Keldorn")
+  InMyArea("Keldorn") 
+  !StateCheck("Keldorn",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIKeldLDDPoq","ID8013",1)
+	DisplayString("Keldorn",~Ugh. Something of deepest evil lies this way, an aura so thick I can feel it like I was set aflame. I believe we are close to the final mastermind behind all of this.~)
+END
+
+IF
+  Global("WIAjanLDDPoq","ID8013",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Ajantis")
+  InMyArea("Ajantis") 
+  !StateCheck("Ajantis",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIAjanLDDPoq","ID8013",1)
+	DisplayString("Ajantis",~Watch now, the stink of evil lies just ahead of us. Pray Helm to fortify our bodies and our minds, and carry us forward to cleanse this abomination from our world.~)
+END

@@ -1,0 +1,25 @@
+IF 
+  Global("WIYeslConlanSmith","ID2103",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Yeslick")
+  InMyArea("Yeslick")
+  !StateCheck("Yeslick",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIYeslConlanSmith","ID2103",1)
+	DisplayString("Yeslick",~A modest smithy, but a steady craftsman needs naught but their hammer and a stoking fire tae do Moradin proud. Aye, plenty of fine crafts to honor the gods here.~)
+END
+
+IF 
+  Global("WIKorgConlanSmith","ID2103",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Korgan")
+  InMyArea("Korgan")
+  !StateCheck("Korgan",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIKorgConlanSmith","ID2103",1)
+	DisplayString("Korgan",~There be some mighty fine axes on display, but I'd bet a keg of Undermountain Mead that most of 'em nae been bloodied yet. It's an insult ta sell an axe that's nae killed a bastard yet. Grab twenty of 'em, n' I'll have 'em drippin' by sundown.~)
+END

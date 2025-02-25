@@ -1,0 +1,12 @@
+IF
+  Global("WIRasaTempForGod","ID3602",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InMyArea("Rasaad") 
+  InParty("Rasaad")
+  !StateCheck("Rasaad",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIRasaTempForGod","ID3602",1)
+	DisplayString("Rasaad",~More battle ahead. Be on your guard. These defenders fight desperately to stop us.~)
+END

@@ -1,0 +1,12 @@
+IF 
+  Global("WIGariFiddleship","ID2108",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Garrick")
+  InMyArea("Garrick")
+  !StateCheck("Garrick",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIGariFiddleship","ID2108",1)
+	DisplayString("Garrick",~Odd place for a ship. You don't suppose it sailed here on a great ocean wave that swept through the Ten-Towns and right into the mountains, do you? That would make for quite a song!~)
+END

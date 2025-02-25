@@ -1,0 +1,12 @@
+IF
+  Global("WIEdwiSevLibrary","ID5102",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Edwin")
+  InMyArea("Edwin") 
+  !StateCheck("Edwin",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIEdwiSevLibrary","ID5102",1)
+	DisplayString("Edwin",~Now -this- looks to be a repository of knowledge worthy of study (one can only hope it is not filled with useless elven poetry and histories)~)
+END

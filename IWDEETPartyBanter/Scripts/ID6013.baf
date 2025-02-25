@@ -1,0 +1,25 @@
+IF
+  Global("WIYislDDMoraTempLive","ID6013",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Yeslick")
+  InMyArea("Yeslick") 
+  !StateCheck("Yeslick",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIYislDDMoraTempLive","ID6013",1)
+	DisplayString("Yeslick",~Aha! Yes! Will ye look at that forge sing! I can feel the eyes of the Soul Forger on us once again. A proud day fer all dwarvenkind.~)
+END
+
+IF
+  Global("WIKeldDDMoraTempLive","ID6013",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Keldorn")
+  InMyArea("Keldorn") 
+  !StateCheck("Keldorn",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIKeldDDMoraTempLive","ID6013",1)
+	DisplayString("Keldorn",~I may not be a dwarf, but Moradin's is a god any good soul should respect. I'm glad to see that a spark has been reignited in this place of honor for him.~)
+END

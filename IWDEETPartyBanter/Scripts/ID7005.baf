@@ -1,0 +1,25 @@
+IF
+  Global("WIAlorWyrmTooth","ID7005",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Alora")
+  InMyArea("Alora") 
+  !StateCheck("Alora",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIAlorWyrmTooth","ID7005",1)
+	DisplayStringHead("Alora",~Oh this is neat! Whooooo wants to go sledding!?~)
+END
+
+IF
+  Global("WIMinscAquaEx","ID7005",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Minsc")
+  InMyArea("Minsc") 
+  !StateCheck("Minsc",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIMinscAquaEx","ID7005",1)
+	DisplayString("Minsc",~Boo, watch your step. The ice here is slippery, I would not want to see you fall on your little hamster butt! You must walk like a Rashemi, with legs wide!~)
+END

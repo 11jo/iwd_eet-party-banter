@@ -1,0 +1,25 @@
+IF
+  Global("WIKagaLDD","ID8001",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Kagain")
+  InMyArea("Kagain") 
+  !StateCheck("Kagain",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIKagaLDD","ID8001",1)
+	DisplayString("Kagain",~Place like this, must have been overflowing with gold once upon a time. Woulda liked to see it before it all went to shit.~)
+END
+
+IF
+  Global("WIImoeLDD","ID8001",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Imoen")
+  InMyArea("Imoen") 
+  !StateCheck("Imoen",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIImoeLDD","ID8001",1)
+	DisplayString("Imoen",~Place's got the look of big ole mouse trap. Breakin' inta here's gonna be tougher than stealin' inta Lady Jannath's boudoir, and twice as interesting. Not that I'd uh, ever done such a thing. Or thought about it. Uh, keepin' my eyes open! Step soft n' such!~)
+END

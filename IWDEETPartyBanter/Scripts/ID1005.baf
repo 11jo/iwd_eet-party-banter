@@ -1,0 +1,25 @@
+IF 
+  Global("WIAjantGaspHouse","ID1005",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Ajantis")
+  InMyArea("Ajantis")
+  !StateCheck("Ajantis",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIAjantGaspHouse","ID1005",1)
+	DisplayString("Ajantis",~By Helm, the stench in here is more abomindable than a fiend's flatulence! Gah, beware this isn't some sort of... demon in disguise, or some assassin's gas trap. Ah, I need to catch my breath outside.~)
+END
+
+IF 
+  Global("WIMazzyGaspHouse","ID1005",0)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  CombatCounter(0)
+  InParty("Mazzy")
+  InMyArea("Mazzy")
+  !StateCheck("Mazzy",STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("WIMazzyGaspHouse","ID1005",1)
+	DisplayString("Mazzy",~The evils of alcoholism are especially potent here in the north, where there is often little to do in the coldest months but to wait out the storm with one's own thoughts. This poor soul.~)
+END

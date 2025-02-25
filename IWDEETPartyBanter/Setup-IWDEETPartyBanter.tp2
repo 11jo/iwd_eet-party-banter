@@ -1,0 +1,63 @@
+BACKUP ~weidu_external/IWDEETPartyBanter/Backup~
+AUTHOR ~AWizardDidIt~
+
+VERSION ~v1.0~
+
+BEGIN ~Install IWDEET Party Banter~
+
+COMPILE ~IWDEETPartyBanter/Dialogue/Interject.d~
+
+EXTEND_TOP ~ID1001.bcs~ ~IWDEETPartyBanter/Scripts/ID1001.baf~
+EXTEND_TOP ~ID1200.bcs~ ~IWDEETPartyBanter/Scripts/ID1200.baf~
+EXTEND_TOP ~ID1201.bcs~ ~IWDEETPartyBanter/Scripts/ID1201.baf~
+EXTEND_TOP ~ID3000.bcs~ ~IWDEETPartyBanter/Scripts/ID3000.baf~
+EXTEND_TOP ~ID3501.bcs~ ~IWDEETPartyBanter/Scripts/ID3501.baf~
+EXTEND_TOP ~ID3603.bcs~ ~IWDEETPartyBanter/Scripts/ID3603.baf~
+EXTEND_TOP ~ID4003.bcs~ ~IWDEETPartyBanter/Scripts/ID4003.baf~
+EXTEND_TOP ~ID4005.bcs~ ~IWDEETPartyBanter/Scripts/ID4005.baf~
+EXTEND_TOP ~ID9501.bcs~ ~IWDEETPartyBanter/Scripts/ID9501.baf~
+EXTEND_TOP ~ID5000.bcs~ ~IWDEETPartyBanter/Scripts/ID5000.baf~
+EXTEND_TOP ~ID6002.bcs~ ~IWDEETPartyBanter/Scripts/ID6002.baf~
+EXTEND_TOP ~ID6010.bcs~ ~IWDEETPartyBanter/Scripts/ID6010.baf~
+EXTEND_TOP ~ID6006.bcs~ ~IWDEETPartyBanter/Scripts/ID6006.baf~
+EXTEND_TOP ~ID7005.bcs~ ~IWDEETPartyBanter/Scripts/ID7005.baf~
+EXTEND_TOP ~ID7001.bcs~ ~IWDEETPartyBanter/Scripts/ID7001.baf~
+EXTEND_TOP ~ID9300.bcs~ ~IWDEETPartyBanter/Scripts/ID9300.baf~
+EXTEND_TOP ~ID9800.bcs~ ~IWDEETPartyBanter/Scripts/ID9800.baf~
+EXTEND_TOP ~ID2111.bcs~ ~IWDEETPartyBanter/Scripts/ID2111.baf~
+EXTEND_TOP ~ID9100.bcs~ ~IWDEETPartyBanter/Scripts/ID9100.baf~
+EXTEND_TOP ~ID1007.bcs~ ~IWDEETPartyBanter/Scripts/ID1007.baf~
+EXTEND_TOP ~ID2001.bcs~ ~IWDEETPartyBanter/Scripts/ID2001.baf~
+EXTEND_TOP ~ID3600.bcs~ ~IWDEETPartyBanter/Scripts/ID3600.baf~
+EXTEND_TOP ~ID2100.bcs~ ~IWDEETPartyBanter/Scripts/ID2100.baf~
+EXTEND_TOP ~ID2113.bcs~ ~IWDEETPartyBanter/Scripts/ID2113.baf~
+EXTEND_TOP ~ID1004.bcs~ ~IWDEETPartyBanter/Scripts/ID1004.baf~
+EXTEND_TOP ~ID4000.bcs~ ~IWDEETPartyBanter/Scripts/ID4000.baf~
+EXTEND_TOP ~ID2114.bcs~ ~IWDEETPartyBanter/Scripts/ID2114.baf~
+EXTEND_TOP ~ID7004.bcs~ ~IWDEETPartyBanter/Scripts/ID7004.baf~
+EXTEND_TOP ~IW1100.bcs~ ~IWDEETPartyBanter/Scripts/IW1100.baf~
+EXTEND_TOP ~ID1005.bcs~ ~IWDEETPartyBanter/Scripts/ID1005.baf~
+EXTEND_TOP ~ID4001.bcs~ ~IWDEETPartyBanter/Scripts/ID4001.baf~
+EXTEND_TOP ~ID2103.bcs~ ~IWDEETPartyBanter/Scripts/ID2103.baf~
+EXTEND_TOP ~ID2107.bcs~ ~IWDEETPartyBanter/Scripts/ID2107.baf~
+EXTEND_TOP ~ID3602.bcs~ ~IWDEETPartyBanter/Scripts/ID3602.baf~
+EXTEND_TOP ~ID4004.bcs~ ~IWDEETPartyBanter/Scripts/ID4004.baf~
+EXTEND_TOP ~ID5004.bcs~ ~IWDEETPartyBanter/Scripts/ID5004.baf~
+EXTEND_TOP ~ID5101.bcs~ ~IWDEETPartyBanter/Scripts/ID5101.baf~
+EXTEND_TOP ~ID5102.bcs~ ~IWDEETPartyBanter/Scripts/ID5102.baf~
+EXTEND_TOP ~ID5304.bcs~ ~IWDEETPartyBanter/Scripts/ID5304.baf~
+EXTEND_TOP ~ID6000.bcs~ ~IWDEETPartyBanter/Scripts/ID6000.baf~
+EXTEND_TOP ~ID6001.bcs~ ~IWDEETPartyBanter/Scripts/ID6001.baf~
+EXTEND_TOP ~ID6003.bcs~ ~IWDEETPartyBanter/Scripts/ID6003.baf~
+EXTEND_TOP ~ID6004.bcs~ ~IWDEETPartyBanter/Scripts/ID6004.baf~
+EXTEND_TOP ~ID6011.bcs~ ~IWDEETPartyBanter/Scripts/ID6011.baf~
+EXTEND_TOP ~ID6013.bcs~ ~IWDEETPartyBanter/Scripts/ID6013.baf~
+EXTEND_TOP ~ID8001.bcs~ ~IWDEETPartyBanter/Scripts/ID8001.baf~
+EXTEND_TOP ~ID8004.bcs~ ~IWDEETPartyBanter/Scripts/ID8004.baf~
+EXTEND_TOP ~ID8013.bcs~ ~IWDEETPartyBanter/Scripts/ID8013.baf~
+EXTEND_TOP ~ID9101.bcs~ ~IWDEETPartyBanter/Scripts/ID9101.baf~
+EXTEND_TOP ~ID9200.bcs~ ~IWDEETPartyBanter/Scripts/ID9200.baf~
+EXTEND_TOP ~ID9300.bcs~ ~IWDEETPartyBanter/Scripts/ID9300.baf~
+EXTEND_TOP ~ID9500.bcs~ ~IWDEETPartyBanter/Scripts/ID9500.baf~
+EXTEND_TOP ~ID9502.bcs~ ~IWDEETPartyBanter/Scripts/ID9502.baf~
+EXTEND_TOP ~ID9600.bcs~ ~IWDEETPartyBanter/Scripts/ID9600.baf~
