@@ -73,11 +73,11 @@ I_C_T3 DCHURIN 2 WIDCHURIN2NALIA
 END
 
 I_C_T3 DELISIA 0 WIDELISIA0
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10034 /* She's so beautiful. But also really sad. There's something ‘bout her that just makes me wanna hug her tight and tell her it'll be alright. */
-== VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID) InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10035 /* Oh, you wish to "hug" her do you? The way you are entranced by her pitiful song, it appears that it is only the start of what you want from her. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID) InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @10036 /* Heh well, uhhh maybe you learn to sing half so good and I'll even be interested in givin' you a hug too. */
-== VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID) InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10037 /* You flatter yourself if you think I'd allow it. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID) InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @10038 /* Sure thing Viccy. You keep playin' that heart of stone thing you got goin on. Obviously it's workin for ya. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10034 /* She's so beautiful. But also really sad. There's something ‘bout her that just makes me wanna hug her tight and tell her it'll be alright. */
+== VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID) InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10035 /* Oh, you wish to "hug" her do you? The way you are entranced by her pitiful song, it appears that it is only the start of what you want from her. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID) InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @10036 /* Heh well, uhhh maybe you learn to sing half so good and I'll even be interested in givin' you a hug too. */
+== VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID) InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10037 /* You flatter yourself if you think I'd allow it. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID) InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @10038 /* Sure thing Viccy. You keep playin' that heart of stone thing you got goin on. Obviously it's workin for ya. */
 == NEERAJ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @10039 /* Aww did you make yourself blue? I once cast a spell that made my skin a really disgusting shade of green. I was a complete eyesore for like a week until I was finally able to dispel it. Some people even thought I was part orc and tried to set me on fire. Good times. */
 == KIVANJ IF ~InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID)~ THEN @10040 /* Sweet is the song she sings. So sweet, it pains me to hear it, but I cannot help but listen. */
 == XANJ IF ~InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID)~ THEN @10041 /* Her song... it is pleasing to the ear. But there is a dread as well and I feel like I might be drowning. The sweetest death so they say, and by they, I mean complete idiots who think any death could be sweet. */
@@ -133,7 +133,7 @@ I_C_T3 DGRISELL 7 WIDGRISELL7
 END
 
 I_C_T3 DGRISELL 13 WIDGRISELL13
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10070 /* This all feels like the humble beginnings of someone else's story. I've stolen my fair share of things but I dunno how comfortable I feel stealing legends. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10070 /* This all feels like the humble beginnings of someone else's story. I've stolen my fair share of things but I dunno how comfortable I feel stealing legends. */
 == CORANJ IF ~InParty("Coran") InMyArea("Coran") !StateCheck("Coran",CD_STATE_NOTVALID)~ THEN @10071 /* Hmm... Enough coin to buy another round. Well, a victory is a victory. Let us drink to celebrate our courageous battle against those small and mostly defenseless insects. */
 == XANJ IF ~InParty("Coran") InMyArea("Coran") !StateCheck("Coran",CD_STATE_NOTVALID) InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID)~ THEN @10072 /* Yes, let us drink now, for the next battle shall surely be our last. */
 == CORANJ IF ~InParty("Coran") InMyArea("Coran") !StateCheck("Coran",CD_STATE_NOTVALID) InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID)~ THEN @10073 /* And just like that, the desire is gone. Leave it to you to kill the mood in record speed Xan. */
@@ -267,7 +267,7 @@ I_C_T3 DHROTH 5 WIDHROTH5
 END
 
 I_C_T3 DHROTH 11 WIDHROTH11
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10138 /* Knowin' <CHARNAME> I'm surprised <PRO_HESHE> hasn't smelled adventure that way already and started on without ya. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10138 /* Knowin' <CHARNAME> I'm surprised <PRO_HESHE> hasn't smelled adventure that way already and started on without ya. */
 == AJANTJ IF ~InParty("Ajantis") InMyArea("Ajantis") !StateCheck("Ajantis",CD_STATE_NOTVALID)~ THEN @10139 /* I do not like the sound of this. I think we have an obligation to join with this man, and at least see what these "evil forces" are all about first hand. Helm would not approve a lapse of vigilance in this regard. */
 == DYNAHJ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @10140 /* If thou are't certain that this is the path we should take, then I stand beside you, whatever reservations I might have. */
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID) InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @10141 /* Minsc will always stand by his witch, and Boo will always stand by him! Even the thickest snow will not hide evil from us! */
@@ -327,7 +327,7 @@ I_C_T3 DHERMIT 0 WIDHERMIT0
 == XANJ IF ~InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID) InParty("Alora") InMyArea("Alora") !StateCheck("Alora",CD_STATE_NOTVALID)~ THEN @10176 /* Hurk! Wh-whe-who...?! Oh... it's just you. Yes, gods yes, I'm fine. */
 == ALORAJ IF ~InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID) InParty("Alora") InMyArea("Alora") !StateCheck("Alora",CD_STATE_NOTVALID)~ THEN @10177 /* Just makin sure! *giggles* */
 == VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @10178 /* Away from me rivvil! The avalanche would be a comforting embrace next to your revolting concern. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID) InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @10179 /* That's Viccy's way of saying 'I'm swell, gee thanks for askin'! */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID) InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @10179 /* That's Viccy's way of saying 'I'm swell, gee thanks for askin'! */
 == KHALIJ IF ~InParty("Khalid") InMyArea("Khalid") !StateCheck("Khalid",CD_STATE_NOTVALID)~ THEN @10180 /* I t-think we are alright. T-that w-was a c-c-close one. Oh b-but... the others... */
 == JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID) InParty("Khalid") InMyArea("Khalid") !StateCheck("Khalid",CD_STATE_NOTVALID)~ THEN @10181 /* Steady yourself Khalid. We made it. *I* made it. Listen to my voice... we are ok. */
 == KHALIJ IF ~InParty("Khalid") InMyArea("Khalid") !StateCheck("Khalid",CD_STATE_NOTVALID) InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID) ~ THEN @10182 /* Y-yes dear... yes. I hear you. Thank the g-gods you're ok. */
@@ -391,23 +391,23 @@ I_C_T3 DOGRE 0 WIDOGRE0
 END
 
 I_C_T3 DOGRE 1 WIDOGRE1
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10212 /* Aww poor guy. I know he's an ogre ‘n all, but I just feel bad for him. */
-== KIVANJ IF ~InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID) InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10213 /* An ogre is not worth your pity. Unfortunate his plight may be, he is still a monster. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID) InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID)~ THEN @10214 /* Even if that's the case, it just ain't my way Kivan. My heart won't let it. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10212 /* Aww poor guy. I know he's an ogre ‘n all, but I just feel bad for him. */
+== KIVANJ IF ~InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID) InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10213 /* An ogre is not worth your pity. Unfortunate his plight may be, he is still a monster. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID) InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID)~ THEN @10214 /* Even if that's the case, it just ain't my way Kivan. My heart won't let it. */
 == CERNDJ IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @10215 /* Hmm...  I may know just the remedy for this condition. It is up to you if you wish to give help to him. While many times violent, ogres are still a part of the delicate balance of nature. I believe that should be respected as long as this one does not attack us. */
 END
 
 I_C_T3 DOGRE 2 WIDOGRE2
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10212 /* Aww poor guy. I know he's an ogre ‘n all, but I just feel bad for him. */
-== KIVANJ IF ~InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID) InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10213 /* An ogre is not worth your pity. Unfortunate his plight may be, he is still a monster. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID) InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID)~ THEN @10214 /* Even if that's the case, it just ain't my way Kivan. My heart won't let it. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10212 /* Aww poor guy. I know he's an ogre ‘n all, but I just feel bad for him. */
+== KIVANJ IF ~InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID) InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10213 /* An ogre is not worth your pity. Unfortunate his plight may be, he is still a monster. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID) InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID)~ THEN @10214 /* Even if that's the case, it just ain't my way Kivan. My heart won't let it. */
 == CERNDJ IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @10215 /* Hmm...  I may know just the remedy for this condition. It is up to you if you wish to give help to him. While many times violent, ogres are still a part of the delicate balance of nature. I believe that should be respected as long as this one does not attack us. */
 END
 
 I_C_T3 DOGRE 5 WIDOGRE5
 == VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @10216 /* Brilliant. You've helped a poor ogre come to his senses. Surely now he won't resume his routine of crushing hapless travelers under his club. Yes, what a noble thing you've done today waeles. */
 == FALDOJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID) InParty("Faldorn") InMyArea("Faldorn") !StateCheck("Faldorn",CD_STATE_NOTVALID)~ THEN @10217 /* Releasing this creature will no doubt serve the balance by knocking off a few 'civilized' travelers. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10218 /* Now I just feel all warm and fuzzy inside. I hope you feel better mister ogre. Uh, please don't kill people anymore ok? */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10218 /* Now I just feel all warm and fuzzy inside. I hope you feel better mister ogre. Uh, please don't kill people anymore ok? */
 == DOGRE @10219 /* Agh! Must go. Get out of way! */
 END
 
@@ -418,7 +418,7 @@ END
 
 I_C_T3 DORCCHIE 4 WIDORCCHIE4
 == SAREV25J IF ~InParty("Sarevok") InMyArea("Sarevok") !StateCheck("Sarevok",CD_STATE_NOTVALID)~ THEN @10222 /* Really? */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10223 /* Pftfh hahaha. I guess when you're a demi-god, it's ok to have a few moments of eccentricity. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10223 /* Pftfh hahaha. I guess when you're a demi-god, it's ok to have a few moments of eccentricity. */
 == KAGAIJ IF ~InParty("Kagain") InMyArea("Kagain") !StateCheck("Kagain",CD_STATE_NOTVALID)~ THEN @10224 /* Ok real funny. Now kill the orc and give me back that gold you just took from me. I ain't interested in no orc charity. */
 == QUAYLJ IF ~InParty("Quayle") InMyArea("Quayle") !StateCheck("Quayle",CD_STATE_NOTVALID)~ THEN @10225 /* Take it, take it please just don't hurt me and my beautiful brain! */
 == NEERAJ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @10226 /* Uhh... I think you mighta misclicked or something there boss. */
@@ -454,7 +454,7 @@ I_C_T3 DNATE 0 WIDNATE0
 == CERNDJ IF ~InParty("Hexxat") InMyArea("Hexxat") !StateCheck("Hexxat",CD_STATE_NOTVALID) InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @10238 /* Can I just quickly voice how uncomfortable I am that this majesty of nature will serve as shelter from an unholy perversion of nature? */
 == HEXXATJ IF ~InParty("Hexxat") InMyArea("Hexxat") !StateCheck("Hexxat",CD_STATE_NOTVALID) InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @10239 /* Certainly if you'd like to elaborate further. I am always interested in listening to what a wise druid has to say. */
 == CERNDJ IF ~InParty("Hexxat") InMyArea("Hexxat") !StateCheck("Hexxat",CD_STATE_NOTVALID) InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @10240 /* ...No, that about covers it really. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10241 /* Thanks kid! I knew we'd make it through too. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10241 /* Thanks kid! I knew we'd make it through too. */
 == ELDOTJ IF ~InParty("Eldoth") InMyArea("Eldoth") !StateCheck("Eldoth",CD_STATE_NOTVALID)~ THEN @10242 /* Is this the welcoming parade? Just wonderful... */
 END
 
@@ -545,7 +545,7 @@ END
 
 I_C_T3 DWEENOG 10 WIDWEENOG10
 == EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @10288 /* A goblin wizard?? Ha! Haha! What a ridiculous notion! This almost makes this whole wretched journey worth it. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10289 /* You know, despite the fact that he obviously wants to use his powers for evil, I can't help but root for the little guy. Go get'em Weenog! */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10289 /* You know, despite the fact that he obviously wants to use his powers for evil, I can't help but root for the little guy. Go get'em Weenog! */
 == NEERAJ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @10290 /* Oh could you imagine a little goblin wand in his hand and a pointy hat on his big head? That would be so adorable! I should commission someone to make a little stuffed Weenog... this could be a big hit. */
 == KAGAIJ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID) InParty("Kagain") InMyArea("Kagain") !StateCheck("Kagain",CD_STATE_NOTVALID)~ THEN @10291 /* Ya know... for half a flower-picker, you ain't wrong about that. Lets talk later about manufacturing and distribution. */
 END
@@ -668,8 +668,8 @@ I_C_T3 DARUNDEL 23 WIDARUNDEL23
 == JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @10347 /* If that is how <CHARNAME> wishes to spend <PRO_HISHER> time, then so be it. */ 
 == KHALIJ IF ~InParty("Khalid") InMyArea("Khalid") !StateCheck("Khalid",CD_STATE_NOTVALID) InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @10348 /* Dear, be n-nice. I'm sure Arundel has valuable things to s-say on the matter. You know we all v-value your thoughts on things t-too. Different perspectives are valuable as well. */
 == JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @10349 /* *sigh* Yes, you are right. I am being unfair to everyone. Please continue. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID) InParty("Khalid") InMyArea("Khalid") !StateCheck("Khalid",CD_STATE_NOTVALID) InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @10350 /* *whispers* Nice job Khalid. I ain't ever seen Jaheira admit to being crabby so quick before. */
-== KHALIJ IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID) InParty("Khalid") InMyArea("Khalid") !StateCheck("Khalid",CD_STATE_NOTVALID) InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @10351 /* I have my w-ways. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID) InParty("Khalid") InMyArea("Khalid") !StateCheck("Khalid",CD_STATE_NOTVALID) InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @10350 /* *whispers* Nice job Khalid. I ain't ever seen Jaheira admit to being crabby so quick before. */
+== KHALIJ IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID) InParty("Khalid") InMyArea("Khalid") !StateCheck("Khalid",CD_STATE_NOTVALID) InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @10351 /* I have my w-ways. */
 END
 
 I_C_T3 DARUNDEL 25 WIDARUNDEL25Faldorn
@@ -773,7 +773,7 @@ END
 
 I_C_T3 DARUNDEL 74 WIDARUNDEL74
 == CORANJ IF ~InParty("Coran") InMyArea("Coran") !StateCheck("Coran",CD_STATE_NOTVALID)~ THEN @10386 /* What an enticing locale for a bit of adventure! I can hardly wait. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10387 /* A dormant volcano huh? Gee, I sure hope someone evil and crazy hasn't set up a lair there or nuthin. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10387 /* A dormant volcano huh? Gee, I sure hope someone evil and crazy hasn't set up a lair there or nuthin. */
 == KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @10388 /* I'm startin ta suspect this berry-picker's givin us the run-around. I swear if we don't find what we be lookin for next, I'm gonna decorate me codpiece with his jawbone. */
 END
 
@@ -849,7 +849,7 @@ I_C_T3 DALDWIN 16 WIDALDWIN16
 END
 
 I_C_T3 DALDWIN 18 WIDALDWIN18
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10420 /* Ha! Busted! */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10420 /* Ha! Busted! */
 END
 
 I_C_T3 DALDWIN 21 WIDALDWIN21
@@ -872,9 +872,9 @@ I_C_T3 DALDWIN 23 WIDALDWIN23
 END
 
 I_C_T3 DALDWIN 24 WIDALDWIN24
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10431 /* Hey, not all thievin' is bad! I mean... we're all about the good harmless ‘no one gets hurt' thievin' here. Just cause you're breaking into something doesn't mean you're gonna steal it! Just, ya know, if it's really nice and you're really sure nobody will miss it... */
-== AJANTJ IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID) InParty("Ajantis") InMyArea("Ajantis") !StateCheck("Ajantis",CD_STATE_NOTVALID)~ THEN @10432 /* *ahem* Imoen, do I need to lecture you again on the slippery slope of 'harmless thievery'? */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID) InParty("Ajantis") InMyArea("Ajantis") !StateCheck("Ajantis",CD_STATE_NOTVALID)~ THEN @10433 /* *yawn* Only if I have trouble sleepin tonight. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10431 /* Hey, not all thievin' is bad! I mean... we're all about the good harmless ‘no one gets hurt' thievin' here. Just cause you're breaking into something doesn't mean you're gonna steal it! Just, ya know, if it's really nice and you're really sure nobody will miss it... */
+== AJANTJ IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID) InParty("Ajantis") InMyArea("Ajantis") !StateCheck("Ajantis",CD_STATE_NOTVALID)~ THEN @10432 /* *ahem* Imoen, do I need to lecture you again on the slippery slope of 'harmless thievery'? */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID) InParty("Ajantis") InMyArea("Ajantis") !StateCheck("Ajantis",CD_STATE_NOTVALID)~ THEN @10433 /* *yawn* Only if I have trouble sleepin tonight. */
 END
 
 I_C_T3 DAMELIA 2 WIDAMELIA2
@@ -941,7 +941,7 @@ I_C_T3 DCONLAN 5 WIDCONLAN5
 END
 
 I_C_T3 DCONLAN 7 WIDCONLAN7
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10464 /* I'm sorry for your loss, but you can't get so down on yourself. There's still hope. We're gonna be investigating the strange going ons in town. If anyone can figure out what happened to your son, it'll be Imoen and her merry band. <CHARNAME> might help too. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10464 /* I'm sorry for your loss, but you can't get so down on yourself. There's still hope. We're gonna be investigating the strange going ons in town. If anyone can figure out what happened to your son, it'll be Imoen and her merry band. <CHARNAME> might help too. */
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @10465 /* Arundel may have a big nose, but two noses are better than one, and Minsc and Boo will not stop until your boy has been found and delivered safe to you! Boo has the finest smelling of any hamster in all the world. You will see, won't he Boo? */
 END
 
@@ -960,7 +960,7 @@ I_C_T3 DCONLAN 17 WIDCONLAN17
 == RASAADJ IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID) InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @10471 /* Anomen, you are a more gentle man than you appear at times. */
 == ANOMENJ IF ~InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID) InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @10472 /* Perhaps... I do concede that the plight of this boy has moved me. Though please don't tell anyone, it might hurt my stoic reputation *chuckles* */
 == RASAADJ IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID) InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @10473 /* Of course. My lips are sealed sir knight. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10474 /* Aw it weren't nuthin. He's a good kid. He probably woulda escaped and found his own way back even without us. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10474 /* Aw it weren't nuthin. He's a good kid. He probably woulda escaped and found his own way back even without us. */
 == ALORAJ IF ~InParty("Alora") InMyArea("Alora") !StateCheck("Alora",CD_STATE_NOTVALID)~ THEN @10475 /* Hehe you're welcome! Now just remember to give him a big hug every day until he think he's too old to be hugged by his dad... and then you do it twice! */
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @10476 /* Little boy is safe and Minsc and Boo are heroes yet again!  */
 END
@@ -979,14 +979,14 @@ I_C_T3 DOSWALD 1 WIDOSWALD1
 == DOSWALD @10484 /* Whatever could you mean? You know the Fiddlebenders have always appreciated turnips-man's art. With this potions we could make your turnips grow twice th- */
 == JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @10485 /* No thank you sir. Now if you'll excuse me, I'll be standing over here nursing my grudge. */
 == NEERAJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID) InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @10486 /* It's like I'm seeing double here. */
-== IMOEN2J IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID) InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10487 /* I couldn't tell these two apart in a crowd. */
+== IMOEN2J IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID) InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10487 /* I couldn't tell these two apart in a crowd. */
 == ANOMENJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID) InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @10488 /* Helm have mercy... one was enough but two will be the end of me. */
 == AERIEJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID) InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @10489 /* *giggles* It's like watching mister Quayle argue into a mirror. */
 == RASAADJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID) InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @10490 /* There is a curious harmony in their words and actions. */
 == VICONIJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID) InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @10491 /* They're multiplying. Fantastic... *sigh* Won't someone get the exterminator? */
-== JANJ IF ~OR(6) InMyArea("Rasaad") InMyArea("Anomen") InMyArea("Imoen") InMyArea("Aerie") InMyArea("Viconia") InMyArea("Neera") InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @10492 /* We are nothing like each other! Oh I'm so angry I could positively steam out of the ears, which I've been known to do on occasion. It's a condition you see, one I'm quite self conscious of so I'll thank you not to mention it. */
-== DOSWALD IF ~OR(6) InMyArea("Rasaad") InMyArea("Anomen") InMyArea("Imoen") InMyArea("Aerie") InMyArea("Viconia") InMyArea("Neera")~ THEN @10493 /* Well, that's because of a bit of shared blood between the Fiddelbenders and Jansens. It all goes waaaay back... */
-== JANJ IF ~OR(6) InMyArea("Rasaad") InMyArea("Anomen") InMyArea("Imoen") InMyArea("Aerie") InMyArea("Viconia") InMyArea("Neera") InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @10494 /* Hey, that's my line! */
+== JANJ IF ~OR(6) InMyArea("Rasaad") InMyArea("Anomen") InMyArea("Imoen2") InMyArea("Aerie") InMyArea("Viconia") InMyArea("Neera") InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @10492 /* We are nothing like each other! Oh I'm so angry I could positively steam out of the ears, which I've been known to do on occasion. It's a condition you see, one I'm quite self conscious of so I'll thank you not to mention it. */
+== DOSWALD IF ~OR(6) InMyArea("Rasaad") InMyArea("Anomen") InMyArea("Imoen2") InMyArea("Aerie") InMyArea("Viconia") InMyArea("Neera")~ THEN @10493 /* Well, that's because of a bit of shared blood between the Fiddelbenders and Jansens. It all goes waaaay back... */
+== JANJ IF ~OR(6) InMyArea("Rasaad") InMyArea("Anomen") InMyArea("Imoen2") InMyArea("Aerie") InMyArea("Viconia") InMyArea("Neera") InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @10494 /* Hey, that's my line! */
 END
 
 I_C_T DOSWALD 3 WIDOSWALD3
@@ -1236,7 +1236,7 @@ END
 I_C_T3 DKRESSEL 40 WIDKRESSEL40
 == CERNDJ IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @10586 /* In a certain sense he is not wrong. Though it indicates the road ahead will be long indeed. */
 == SAFANJ IF ~InParty("Safana") InMyArea("Safana") !StateCheck("Safana",CD_STATE_NOTVALID)~ THEN @10587 /* And this is why I only make deals with the living. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10588 /* At this point I don't even care anymore. I just wanna leave this hole as quick as we can. Let's get outta here <CHARNAME>. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10588 /* At this point I don't even care anymore. I just wanna leave this hole as quick as we can. Let's get outta here <CHARNAME>. */
 == KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @10589 /* Ain't no man livin's robbed me of my due... but then ye be dead already so maybe I'll just piss in yer tomb for the trouble. */
 == ELDOTJ IF ~InParty("Eldoth") InMyArea("Eldoth") !StateCheck("Eldoth",CD_STATE_NOTVALID)~ THEN @10590 /* Well this was perfectly pointless. Let's retire back to town and drink on it shall we? */
 == ALORAJ IF ~InParty("Alora") InMyArea("Alora") !StateCheck("Alora",CD_STATE_NOTVALID)~ THEN @10591 /* Ok well then toodles mister scary spirit man! Have a great day! */
@@ -1375,7 +1375,7 @@ I_C_T DCAPVIL2 8 WIDCAPVIL28
 END
 
 I_C_T DCAPVIL2 9 WIDCAPVIL29
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10633 /* It doesn't sound great. Well excepting one sunite festival I read about with some... "loose" metaphorical interpretations of ritual eating... err, at least that's what the book showed with really, really detailed pictographs and uhh... (ok Imoen, you're gettin' looks now, time ta shut'it) */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10633 /* It doesn't sound great. Well excepting one sunite festival I read about with some... "loose" metaphorical interpretations of ritual eating... err, at least that's what the book showed with really, really detailed pictographs and uhh... (ok Imoen, you're gettin' looks now, time ta shut'it) */
 END
 
 I_C_T DCAPVIL2 16 WIDCAPVIL216
@@ -1489,7 +1489,7 @@ I_C_T DALBION 23 WIDALBION23
 END
 
 I_C_T DELIBRAR 1 WIDELIBRAR1
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10682 /* That means that's where they hide the good stuff. Either powerful magic tomes or dirty literature. Either way, we gotta check it out. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10682 /* That means that's where they hide the good stuff. Either powerful magic tomes or dirty literature. Either way, we gotta check it out. */
 END
 
 I_C_T DMARCH 0 WIDMARCH
@@ -1572,7 +1572,7 @@ I_C_T DYXUN 5 WIDYXUN5
 END
 
 I_C_T3 DYXUN 7 WIDYXUN7Imoen
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10714 /* Gettin' a bit tired of bein' told I can't understand what's goin' on when no one will stop and explain it. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10714 /* Gettin' a bit tired of bein' told I can't understand what's goin' on when no one will stop and explain it. */
 END
 
 I_C_T DYXUN 11 WIDYXUN11
@@ -1653,11 +1653,11 @@ END
 
 I_C_T3 DLEHLAND 2 WIDLEHLAND2
 == DYNAHJ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @10741 /* He is time lost and does not perceive the passing of ages. Tis unlikely we willst be able to clear the mist from his eyes. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10742 /* I can't imagine what it'd be like to be stuck in this ruin forever. I guess clinging to the memory of the past back when things were good is the only thing you have. */
-== JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID) InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10743 /* Do not be foolish. These lies are damning them. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID) InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @10744 /* But Jaheira, he's trapped already. Lies are all he's got now. Without those... well he'd be just as miserable at rest of the spirits here. */
-== JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID) InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10745 /* The illusion of happiness is no substitute for the real thing. He's made a second cage, and now have twice as many to free themselves from. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID) InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @10746 /* I just don't know... */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10742 /* I can't imagine what it'd be like to be stuck in this ruin forever. I guess clinging to the memory of the past back when things were good is the only thing you have. */
+== JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID) InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10743 /* Do not be foolish. These lies are damning them. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID) InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @10744 /* But Jaheira, he's trapped already. Lies are all he's got now. Without those... well he'd be just as miserable at rest of the spirits here. */
+== JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID) InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10745 /* The illusion of happiness is no substitute for the real thing. He's made a second cage, and now have twice as many to free themselves from. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID) InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @10746 /* I just don't know... */
 END
 
 I_C_T3 DLEHLAND 12 WIDLEHLAND12
@@ -1678,8 +1678,8 @@ I_C_T3 DTEALNIS 1 WIDTEALNIS1
 END
 
 I_C_T3 DTEALNIS 2 WIDTEALNIS2
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10755 /* Oh no, I've fallen in love! Forgive me <CHARNAME>, I'm going to stay here with my beloved ghost elf for-ev-er! */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10756 /* Ok ok, not really yeesh, don't give me that look. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10755 /* Oh no, I've fallen in love! Forgive me <CHARNAME>, I'm going to stay here with my beloved ghost elf for-ev-er! */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10756 /* Ok ok, not really yeesh, don't give me that look. */
 END
 
 I_C_T3 DTEALNIS 11 WIDTEALNIS11
@@ -1789,7 +1789,7 @@ I_C_T3 DVALESTI 7 WIDVALESTI7
 END
 
 I_C_T DVALESTI 14 WIDVALESTI14
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10802 /* Well I gotta hand it to ya, for all the work we put into it, this don't look half bad. So how about a picnic? */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10802 /* Well I gotta hand it to ya, for all the work we put into it, this don't look half bad. So how about a picnic? */
 END
 
 I_C_T3 DCUSTHAN 0 WIDCUSTHAN0
@@ -1811,7 +1811,7 @@ I_C_T DGELARIT 0 WIDGELARIT0
 END
 
 I_C_T DGELARIT 3 WIDGELARIT3
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10809 /* Well ain't he a pleasant fellow. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10809 /* Well ain't he a pleasant fellow. */
 END
 
 I_C_T3 DGELARIT 4 WIDGELARIT4
@@ -1959,7 +1959,7 @@ I_C_T3 DBANDOTH 17 WIDBANDOTH17
 END
 
 I_C_T DBANDOTH 19 WIDBANDOTH19
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10871 /* Oh sure, they're knocking down the door. Had to beat all those adventurers off with sticks to run your dumb errand first. Yup yup. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10871 /* Oh sure, they're knocking down the door. Had to beat all those adventurers off with sticks to run your dumb errand first. Yup yup. */
 END
 
 I_C_T3 DBANDOTH 22 WIDBANDOTH22
@@ -1986,7 +1986,7 @@ I_C_T3 DBANDOTH 29 WIDBANDOTH29
 END
 
 I_C_T3 DBANDOTH 31 WIDBANDOTH31
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10883 /* What can we say? We're just special like that. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10883 /* What can we say? We're just special like that. */
 == GARRIJ IF ~InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @10884 /* Well... I thought it was impressive... */
 == KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @10885 /* Gods help me, if I ever end up as cranky as him, my Torm strike me where I stand. */
 == DBANDOTH @10060 /* ... */
@@ -2122,7 +2122,7 @@ END
 
 I_C_T3 DGORG 4 WIDGORG4
 == BAELOTHJ IF ~InParty("Baeloth") InMyArea("Baeloth") !StateCheck("Baeloth",CD_STATE_NOTVALID)~ THEN @10935 /* That low fence in a circle? What kind of slave pen is that? You'd be lucky if your slaves weren't escaping accidentally on their way to be whipped! */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10936 /* Oh I don't much like the sound of that... */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10936 /* Oh I don't much like the sound of that... */
 == YOSHJ IF ~InParty("Yoshimo") InMyArea("Yoshimo") !StateCheck("Yoshimo",CD_STATE_NOTVALID)~ THEN @10937 /* Guarding an easily escapable pen of slaves? You know that this must be the strongest and smartest giant to be given this post. */
 END
 
@@ -2140,8 +2140,8 @@ I_C_T DDAVIN 7 WIDDAVIN7
 END
 
 I_C_T3 DDAVIN 14 WIDDAVIN14
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10942 /* Aww, don't mention it. Get outta here before you catch a fever. */
-== DDAVIN IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10943 /* Heh, as you say miss. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10942 /* Aww, don't mention it. Get outta here before you catch a fever. */
+== DDAVIN IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10943 /* Heh, as you say miss. */
 == MAZZYJ IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @10944 /* There is no need to explain. May your passage be safe and perhaps we will see you again. */
 == DDAVIN IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @10945 /* Blessings upon you in your travels. */
 END
@@ -2152,13 +2152,13 @@ END
 
 I_C_T3 DDAVIN 18 WIDDAVIN18
 == HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10947 /* In every tale there is a truth my beaten hound, even the most fantastic of them. Perhaps this experience has expanded your imagination if naught else. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10948 /* Huh... I suppose I never really think ‘bout normal folk that don't fight monsters and creep through dungeons all the time. I guess all this stuff seems pretty unbelievable if you aren't always exposed to it like we are. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10948 /* Huh... I suppose I never really think ‘bout normal folk that don't fight monsters and creep through dungeons all the time. I guess all this stuff seems pretty unbelievable if you aren't always exposed to it like we are. */
 == TIAXJ IF ~InParty("Tiax") InMyArea("Tiax") !StateCheck("Tiax",CD_STATE_NOTVALID)~ THEN @10949 /* Ignore those worthless fables! The only tale you need know is the one of Tiax and how he ascends to absolute power! It is a tale of the ages and for all ages... full of extreme violence and adult situations. */
 END
 
 I_C_T3 DDAVIN 24 WIDDAVIN24
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10942 /* Aww, don't mention it. Get outta here before you catch a fever. */
-== DDAVIN IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10943 /* Heh, as you say miss. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10942 /* Aww, don't mention it. Get outta here before you catch a fever. */
+== DDAVIN IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10943 /* Heh, as you say miss. */
 == MAZZYJ IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @10944 /* There is no need to explain. May your passage be safe and perhaps we will see you again. */
 == DDAVIN IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @10945 /* Blessings upon you in your travels. */
 END
@@ -2221,7 +2221,7 @@ I_C_T3 DVERA 10 WIDVERA10Mazzy
 END
 
 I_C_T3 DVERA 13 WIDVERA13
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10971 /* See? All thieves ain't bad. I'll have to bring this up next time <CHARNAME> gets all piffledy on me for checkin' out <PRO_HISHER> pack when <PRO_HESHE> ain't lookin. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @10971 /* See? All thieves ain't bad. I'll have to bring this up next time <CHARNAME> gets all piffledy on me for checkin' out <PRO_HISHER> pack when <PRO_HESHE> ain't lookin. */
 == YOSHJ IF ~InParty("Yoshimo") InMyArea("Yoshimo") !StateCheck("Yoshimo",CD_STATE_NOTVALID)~ THEN @10972 /* You must be cunning indeed to have made it so far. Ah but not all challenges can be conquered simply by hiding can they? */
 == MONTAJ IF ~InParty("Montaron") InMyArea("Montaron") !StateCheck("Montaron",CD_STATE_NOTVALID)~ THEN @10973 /* Ye got talent. Ye'd better ta have made off when ya had the chance... */
 END
@@ -2486,7 +2486,7 @@ I_C_T DNYM 14 WIDNYM14
 END
 
 I_C_T3 DDIRTYLL 2 WIDDIRTYLL2
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11078 /* What's he doing with his tong... oh eww, that's disgusting. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11078 /* What's he doing with his tong... oh eww, that's disgusting. */
 == SHARTJ IF ~InParty("SharTeel") InMyArea("SharTeel") !StateCheck("SharTeel",CD_STATE_NOTVALID)~ THEN @11079 /* I should carve those lustful desire straight from his chest! */
 END
 
@@ -2551,7 +2551,7 @@ I_C_T DMALAVON 0 WIDMALAVON0
 END
 
 I_C_T3 DMALAVON 1 WIDMALAVON1
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11106 /* Well, at least the simulacrum was a good one. The authentic Malavon's just as nutters as the copy. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11106 /* Well, at least the simulacrum was a good one. The authentic Malavon's just as nutters as the copy. */
 == NEERAJ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @11107 /* You really like hearing yourself talk don't you? I mean, really really really like it. */
 END
 
@@ -2581,8 +2581,8 @@ END
 I_C_T3 DFLOZEM 7 WIDFLOZEM7
 == HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11116 /* Aha well done my Raven! If only we could convince all ne'er do wells to pursue a career in the arts rather than die in our wake. The world, nay the multiverse itself, would be a much better place. */
 == DFLOZEM IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11117 /* Watch out art world, here I come! */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11118 /* Knock em dead out there! Uh, but with your paintbrush and not your sword cause then you'd just be doing what you were already doing here. */
-== DFLOZEM IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11117 /* Watch out art world, here I come! */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11118 /* Knock em dead out there! Uh, but with your paintbrush and not your sword cause then you'd just be doing what you were already doing here. */
+== DFLOZEM IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11117 /* Watch out art world, here I come! */
 END
 
 I_C_T DGINAFAE 0 WIDGINAFAE0
@@ -2724,7 +2724,7 @@ I_C_T DMARKETH 7 WIDMARKETH7
 END
 
 I_C_T3 DMARKETH 12 WIDMARKETH12
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11157 /* You seem like a guy who doesn't need a whole lotta wrongs to justify a right. Like, not even two of ‘em. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11157 /* You seem like a guy who doesn't need a whole lotta wrongs to justify a right. Like, not even two of ‘em. */
 == ANOMENJ IF ~InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @11158 /* Regardless of what this woman may have done in the past, you act basely and I'll not stand idle and suffer it to continue. */
 END
 
@@ -2770,7 +2770,7 @@ I_C_T DPERDIEM 1 WIDPERDIEM1
 END
 
 I_C_T DPERDIEM 2 WIDPERDIEM2
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11173 /* You know, sometimes I wonder about overly religious folk. Sounds like they got lots of pent up uh... needs. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11173 /* You know, sometimes I wonder about overly religious folk. Sounds like they got lots of pent up uh... needs. */
 END
 
 I_C_T DPERDIEM 3 WIDPERDIEM3
@@ -2843,7 +2843,7 @@ I_C_T3 DPOQUELI 31 WIDPOQUELI31
 END
 
 I_C_T DPOMEND 0 WIDPOMEND0
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11195 /* Of course this goober would side with the unspeakable evil thing. Not even gonna pretend to be surprised. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11195 /* Of course this goober would side with the unspeakable evil thing. Not even gonna pretend to be surprised. */
 END
 
 I_C_T DPOMEND 2 WIDPOMEND2
@@ -2880,7 +2880,7 @@ I_C_T DBELHIFE 7 WIDBELHIFE7
 END
 
 I_C_T DBELHIFE 9 WIDBELHIFE9
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11205 /* Well that's bad. Uhh... anyone got a plan? */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11205 /* Well that's bad. Uhh... anyone got a plan? */
 END
 
 I_C_T DBELHIFE 15 WIDBELHIFE15
@@ -2888,7 +2888,7 @@ I_C_T DBELHIFE 15 WIDBELHIFE15
 END
 
 I_C_T3 DBELHIFE 12 WIDBELHIFE12
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11207 /* Well <CHARNAME>, you sure know where ta find a good adventure. You know me, with you till the end. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11207 /* Well <CHARNAME>, you sure know where ta find a good adventure. You know me, with you till the end. */
 == BAELOTHJ IF ~InParty("Baeloth") InMyArea("Baeloth") !StateCheck("Baeloth",CD_STATE_NOTVALID)~ THEN @11208 /* I shouldn't be fighting some kind of devil lord! I don't even know why I'm still here! */
 == MONTAJ IF ~InParty("Montaron") InMyArea("Montaron") !StateCheck("Montaron",CD_STATE_NOTVALID)~ THEN @11209 /* Ah hells, what did I let ye talk me into? If we live through this, my blade and you may need ta be havin' a talk. */
 == NALIAJ IF ~InParty("Nalia") InMyArea("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID)~ THEN @11210 /* With the portal closed, now's our chance. He's obviously some type of Baatezu. Utilize any proofs against fire you have and uhh... hit it until it stops moving? */
@@ -2936,7 +2936,7 @@ END
 //IWD HOW Dialogue Interjections
 
 I_C_T3 DHJOLLDE 0 WIDHJOLLDE0
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11249 /* Well that takes the cake. "You are the hero of my dreams" has to be the cheesiest come on line I've ever heard. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11249 /* Well that takes the cake. "You are the hero of my dreams" has to be the cheesiest come on line I've ever heard. */
 == DYNAHJ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @11250 /* We should listen to this shaman. Dreams can be leaden with prophecy and t'would be wise to heed them. Within reason of course. */
 END
 
@@ -2986,7 +2986,7 @@ I_C_T DHJOLLDE 33 WIDHJOLLDE33
 END
 
 I_C_T3 DHJOLLDE 34 WIDHJOLLDE34
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11266 /* Oh, ya know, we just happened to be in the area and was missin' ya terribly so we thought we'd pay ya a visit. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11266 /* Oh, ya know, we just happened to be in the area and was missin' ya terribly so we thought we'd pay ya a visit. */
 == KHALIJ IF ~InParty("Khalid") InMyArea("Khalid") !StateCheck("Khalid",CD_STATE_NOTVALID)~ THEN @11267 /* N-never count us out. When we s-set our mind to something, we're really q-quite d-d-determined. */
 END
 
@@ -3011,7 +3011,7 @@ I_C_T DHJOLLDE 53 WIDHJOLLDE53
 END
 
 I_C_T DHJOLLDE 55 WIDHJOLLDE55
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11273 /* Gloomfrost huh? What a friendly name. I guess "Sad Glacier" was taken? */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11273 /* Gloomfrost huh? What a friendly name. I guess "Sad Glacier" was taken? */
 END
 
 I_C_T3 DHJOLLDE 57 WIDHJOLLDE57
@@ -3057,7 +3057,7 @@ I_C_T DHAILEE 11 WIDHAILEE11
 END
 
 I_C_T3 DHAILEE 12 WIDHAILEE12
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11295 /* I gotta say... kinda feeling for her. Imagine how bored both of us woulda been back in Candlekeep if we didn't have each other? Woulda driven some of those monks to murder. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11295 /* I gotta say... kinda feeling for her. Imagine how bored both of us woulda been back in Candlekeep if we didn't have each other? Woulda driven some of those monks to murder. */
 == NEERAJ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @11296 /* That actually sounds really tough. I'm sorry kid... I'd show you a magic trick, but I'm afraid I might accidentally teleport you under the ocean or turn you inside out. */
 END
 
@@ -3066,7 +3066,7 @@ I_C_T DHAILEE 15 WIDHAILEE15
 END
 
 I_C_T3 DHAILEE 21 WIDHAILEE21
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11298 /* It would be irresponsible to invade his private space to snoop about his magic mirror... but uhh... can  we do it anyway? I am dying to know what's there. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11298 /* It would be irresponsible to invade his private space to snoop about his magic mirror... but uhh... can  we do it anyway? I am dying to know what's there. */
 == EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @11299 /* A useful clue. Leave the brat to her nonsense and let us investigate this further. */
 END
 
@@ -3288,9 +3288,9 @@ I_C_T3 DHOBART 36 WIDHOBART36Nalia
 END
 
 I_C_T DHOBART 38 WIDHOBART38
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11374 /* Yeah, I think I do. No hard feelings. But don't worry, we're really good. We'll figure this whole thing out and you'll be free in no time. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11374 /* Yeah, I think I do. No hard feelings. But don't worry, we're really good. We'll figure this whole thing out and you'll be free in no time. */
 == DHOBART @11375 /* You're sweet to say, but I've seen too many adventurers destroyed by this place to give me any hope. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11376 /* Yeah, but you haven't seen nothin' like us. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11376 /* Yeah, but you haven't seen nothin' like us. */
 END
 
 I_C_T3 DMURDAUG 0 WIDMURDAUG
@@ -3342,7 +3342,7 @@ I_C_T DMURDAUG 28 WIDMURDAUG28
 END
 
 I_C_T3 DMURDAUG 48 WIDMURDAUG48
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11392 /* Poor guy. But ya know, I betcha there is such a thing. He just hasn't looked in the right spot. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11392 /* Poor guy. But ya know, I betcha there is such a thing. He just hasn't looked in the right spot. */
 == NEERAJ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @11393 /* That was... so beautiful... and... I think I'm having some trouble breathing... I think I need to... go sit over there... again... */
 == ELDOTJ IF ~InParty("Eldoth") InMyArea("Eldoth") !StateCheck("Eldoth",CD_STATE_NOTVALID)~ THEN @11394 /* Ha! Not a bad tale... and with a riotous punchline to boot. */
 == GARRIJ IF ~InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @11395 /* Fascinating! I think I have this all written down. Oh I'll make sure you're credited when I publish my book! */
@@ -3352,7 +3352,7 @@ END
 
 I_C_T3 DMURDAUG 50 WIDMURDAUG50
 == KAGAIJ IF ~InParty("Kagain") InMyArea("Kagain") !StateCheck("Kagain",CD_STATE_NOTVALID)~ THEN @11398 /* What you're just gonna give the damn thing to him?! It could be worth a fortune ya git! When did I sign up for the charity brigade...? */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11399 /* Heh, good luck Murdaugh. We better get invited to the wedding! */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11399 /* Heh, good luck Murdaugh. We better get invited to the wedding! */
 == NEERAJ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @11400 /* Yeah umm ya know I hope it goes well and you know things work out and stuff just goes well and all of that and uhh... (oh gods kill me now) */
 == KHALIJ IF ~InParty("Khalid") InMyArea("Khalid") !StateCheck("Khalid",CD_STATE_NOTVALID)~ THEN @11401 /* We w-wish you the best! Love is a splendorous t-thing. T-treasure every moment. */
 == JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID) InParty("Khalid") InMyArea("Khalid") !StateCheck("Khalid",CD_STATE_NOTVALID)~ THEN @11402 /* Khalid, do not forget you have promised to rub my feet when we retire for the night. */
@@ -3543,7 +3543,7 @@ I_C_T DBALDEMR 24 WIDBALDEMR
 END
 
 I_C_T DDOOGAL 1 WIDDOOGAL1
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11471 /* You look like the brains of this little operation! Well, for as much as that's worth... */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11471 /* You look like the brains of this little operation! Well, for as much as that's worth... */
 END
 
 I_C_T DDOOGAL 4 WIDDOOGAL4
@@ -3632,7 +3632,7 @@ END
 I_C_T3 DANGAAR 5 WIDANGAAR5
 == VALYGARJ IF ~InParty("Valygar") InMyArea("Valygar") !StateCheck("Valygar",CD_STATE_NOTVALID)~ THEN @11503 /* The civilized people do not give these so called "savages" enough credit. They are more perceptive than they appear. */
 == JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @11504 /* Well then, yet again my humble turnip selling roots have given me away. There's really no hiding it. A glimmer in every turnip salesman's eye that sticks with them until the day they die, and you're savvy to see it. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11505 /* It's possible the fact that we're armed to the teeth with enchanted gear may have given us away. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11505 /* It's possible the fact that we're armed to the teeth with enchanted gear may have given us away. */
 == DANGAAR @11506 /* We have learned well from the cowardice of the Ten-Towns so far. */
 END
 
@@ -3646,9 +3646,9 @@ I_C_T3 DANGAAR 17 WIDANGAAR17
 END
 
 I_C_T DANGAAR 20 WIDANGAAR20
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11510 /* Maybe if they read a book? Ya ever see a book before? Bits'a paper strung together that magically let ya know stuff that happened in the past. They're pretty neat. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11510 /* Maybe if they read a book? Ya ever see a book before? Bits'a paper strung together that magically let ya know stuff that happened in the past. They're pretty neat. */
 == DANGAAR @11511 /* Cease your mocking this instant! */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11512 /* Ok fine, but only 'cause ya asked politely. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11512 /* Ok fine, but only 'cause ya asked politely. */
 END
 
 I_C_T DWYLF 1 WIDWYLF1
@@ -3664,7 +3664,7 @@ I_C_T DWYLF 6 WIDWYLF6
 END
 
 I_C_T3 DWYLF 14 WIDWYLF14
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11516 /* Ok, gotta admit, that one looks kinda bad. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11516 /* Ok, gotta admit, that one looks kinda bad. */
 == AERIEJ IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @11517 /* Surely the Easthaveners can share it with you. Or... perhaps they could find a neutral ground to place it at... */
 END
 
@@ -3791,7 +3791,7 @@ I_C_T DVEXING 1 WIDVEXING1
 END
 
 I_C_T DVEXING 3 WIDVEXING3
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11560 /* He just forgot your name, just like that? Wow, I guess it wasn't true love after all. So sad. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11560 /* He just forgot your name, just like that? Wow, I guess it wasn't true love after all. So sad. */
 == DVEXING @11561 /* DO NOT DARE MOCK ME! */
 END
 
@@ -3868,7 +3868,7 @@ I_C_T DTIERNON 31 WIDTIERNON31
 END
 
 I_C_T3 DTIERNON 56 WIDTIERNON56
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11587 /* Whoa there... someone's got some issues he needs to work out... */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11587 /* Whoa there... someone's got some issues he needs to work out... */
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @11588 /* Boo, why does the old dwarf speak to the sword like he does? Does he not know that it cannot understand him? */
 END
 
@@ -3921,7 +3921,7 @@ END
 
 I_C_T3 DJORN 2 WIDJORN2
 == RASAADJ IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @11603 /* It is difficult to find fault in your actions. You sought a better future for your people. It is only a shame that you were mislead. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11604 /* Uhh, creepy. <CHARNAME>, promise me you won't use my bones for a dinner table or nothin' if I die.  */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11604 /* Uhh, creepy. <CHARNAME>, promise me you won't use my bones for a dinner table or nothin' if I die.  */
 END
 
 I_C_T3 DXACTILE 3 WIDXACTILE3
@@ -3945,7 +3945,7 @@ END
 
 I_C_T DICASA 0 WIDICASA0
 == SAREV25J IF ~InParty("Sarevok") InMyArea("Sarevok") !StateCheck("Sarevok",CD_STATE_NOTVALID)~ THEN @11612 /* If only you knew the attention you had brought to yourself. Now you face the Children of Bhaal. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID) InParty("Sarevok") InMyArea("Sarevok") !StateCheck("Sarevok",CD_STATE_NOTVALID)~ THEN @11613 /* You probably haven't heard of us on account of bein so old, but we're kind of a big deal. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID) InParty("Sarevok") InMyArea("Sarevok") !StateCheck("Sarevok",CD_STATE_NOTVALID)~ THEN @11613 /* You probably haven't heard of us on account of bein so old, but we're kind of a big deal. */
 END
 
 I_C_T DICASA 4 WIDICASA4
@@ -4018,18 +4018,18 @@ END
 
 I_C_T DLURE 25 WIDLURE25
 == AERIEJ IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @11638 /* Why must such things always be done with violence. Isn't there a better way to put the spirits to rest than by fighting them? */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID) InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @11639 /* That would be nice wouldn't it? */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID) InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @11639 /* That would be nice wouldn't it? */
 END
 
 I_C_T3 DLURE 30 WIDLURE30
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @11640 /* Fear not! Tales will speak of Minsc and Boo and friends for all time! */
 == EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @11641 /* Yes, great, FINE. We've indulged this pointless nostalgia long enough! Remove us from here. */
 == KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @11642 /* Great deeds speak for themselves. It's not our mission to ensure they are remembered but to just do the right thing and the other will follow. */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11643 /* We're not interested in being remembered. We're just doing what seems right and trying to make it to tomorrow. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11643 /* We're not interested in being remembered. We're just doing what seems right and trying to make it to tomorrow. */
 END
 
 I_C_T DHARALD 0 WIDHARALD0
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11644 /* I still wonder that myself... But no, a dream is something you can wake up from and usually things will still be alright. Well, unless they aren't. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11644 /* I still wonder that myself... But no, a dream is something you can wake up from and usually things will still be alright. Well, unless they aren't. */
 END
 
 I_C_T DHARALD 2 WIDHARALD2
@@ -4091,7 +4091,7 @@ I_C_T DRIKASHA 13 WIDRIKASHA13
 END
 
 I_C_T DRIKASHA 14 WIDRIKASHA14
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11661 /* He's referring to the fall of Netheril, I think. Woulda been ages they've been down here... */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11661 /* He's referring to the fall of Netheril, I think. Woulda been ages they've been down here... */
 END
 
 I_C_T DRIKASHA 19 WIDRIKASHA
@@ -4112,7 +4112,7 @@ I_C_T3 10HEDRON 20 WI10HEDRON20
 == TIAXJ IF ~InParty("Tiax") InMyArea("Tiax") !StateCheck("Tiax",CD_STATE_NOTVALID)~ THEN @11669 /* Why is nobody groveling! I will smite you ALL! */ 
 == YESLIJ IF ~InParty("Yeslick") InMyArea("Yeslick") !StateCheck("Yeslick",CD_STATE_NOTVALID)~ THEN @11670 /* The north's got an infestation! Goblins, an ancient foe to my people. By Clanggedin's will, green heads will roll this day! */ 
 == CORANJ IF ~InParty("Coran") InMyArea("Coran") !StateCheck("Coran",CD_STATE_NOTVALID)~ THEN @11671 /* I suppose my wanderings were bound to lead here eventually, this most isolated and desolate of regions. And few so dangerous as the present situation shows... Ah well let us take a chance shall we? For whatever dangers ahead lies even greater rewards! */ 
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11672 /* Ya' know, when I promised ta' stick with ya ta the s of Faerun an' back, I didn't think ya'd take it so literal! Oh <CHARNAME> what're ya gettin us inta now? */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11672 /* Ya' know, when I promised ta' stick with ya ta the s of Faerun an' back, I didn't think ya'd take it so literal! Oh <CHARNAME> what're ya gettin us inta now? */
 == DYNAHJ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @11673 /* Was such a long trek really necessary? I appreciate the need of these people but beware thou art deferring thy destiny for quite some time in such a journey. */
 == EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @11674 /* Do you enjoy taking me up to the arse end of Faerun simply to give me torment? This place ill-suits one of my stature and I strongly suggest we go back south immediately! (perhaps the only language these philistines understand is a fireball to the face) */ 
 == AJANTJ IF ~InParty("Ajantis") InMyArea("Ajantis") !StateCheck("Ajantis",CD_STATE_NOTVALID)~ THEN @11675 /* There is great need of stalwart warriors in these northern climes. Helm's justice does not often reach the people who live here, and they have clearly suffered for it. With his guiding hand we will show them a better way. */
@@ -4167,7 +4167,7 @@ I_C_T 10BLACK 18 WI10Black18
 END
 
 I_C_T 10BLACK 8 WI10Black
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11712 /* Ya know, I bet "Mercenary" used to be a respectable term until these guys took up the profession. Might be a smart idea to start thinking of a new way to refer to ourselves before they drive "Adventuring Company" into the ground too. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11712 /* Ya know, I bet "Mercenary" used to be a respectable term until these guys took up the profession. Might be a smart idea to start thinking of a new way to refer to ourselves before they drive "Adventuring Company" into the ground too. */
 END
 
 I_C_T 10BLACK 20 WI10Black20
@@ -4269,13 +4269,13 @@ END
 
 I_C_T3 10FIRTHA 50 WI10Firtha50
 == NEERAJ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @11753 /* Yeah, gotta admit there boss, carrying around a dead cat might be a new level of creepy. Makes you come off like one of those weird hoarder people... */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11754 /* Oh that's just one of <CHARNAME>'s lovable quirks. <PRO_HESHE> just has to add everything that ain't nailed down to <PRO_HISHER>'s pack. We probably should have an intervention at some point... */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11754 /* Oh that's just one of <CHARNAME>'s lovable quirks. <PRO_HESHE> just has to add everything that ain't nailed down to <PRO_HISHER>'s pack. We probably should have an intervention at some point... */
 == FALDOJ IF ~InParty("Faldorn") InMyArea("Faldorn") !StateCheck("Faldorn",CD_STATE_NOTVALID)~ THEN @11755 /* I thought you had stored that animal to consume it later. You -will- consume it, yes? Nature's creatures should not die in vain! */
 END
 
 I_C_T3 10FIRTHA 51 WI10Firtha51
 == NEERAJ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @11753 /* Yeah, gotta admit there boss, carrying around a dead cat might be a new level of creepy. Makes you come off like one of those weird hoarder people... */
-== IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11754 /* Oh that's just one of <CHARNAME>'s lovable quirks. <PRO_HESHE> just has to add everything that ain't nailed down to <PRO_HISHER>'s pack. We probably should have an intervention at some point... */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @11754 /* Oh that's just one of <CHARNAME>'s lovable quirks. <PRO_HESHE> just has to add everything that ain't nailed down to <PRO_HISHER>'s pack. We probably should have an intervention at some point... */
 == FALDOJ IF ~InParty("Faldorn") InMyArea("Faldorn") !StateCheck("Faldorn",CD_STATE_NOTVALID)~ THEN @11755 /* I thought you had stored that animal to consume it later. You -will- consume it, yes? Nature's creatures should not die in vain! */
 END
 
