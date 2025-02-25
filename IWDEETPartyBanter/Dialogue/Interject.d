@@ -15,7 +15,7 @@ I_C_T3 DDAMIEN 11 WIDDAMIEN11
 END
 
 I_C_T3 DJHONEN 0 WIDJHONEN0
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10006 /* That slack face, that distant stare. This is a dreamer my raven. A man who lives in blissful imagination. It would pain me to pull him from reverie, but do as you will. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10006 /* That slack face, that distant stare. This is a dreamer my raven. A man who lives in blissful imagination. It would pain me to pull him from reverie, but do as you will. */
 END
 
 I_C_T3 DJHONEN 8 WIDJHONEN8
@@ -24,14 +24,14 @@ END
 
 I_C_T3 DJHONEN 12 WIDJHONEN12
 == ELDOTJ IF ~InParty("Eldoth") InMyArea("Eldoth") !StateCheck("Eldoth",CD_STATE_NOTVALID)~ THEN @10008 /* Ah, but it was our pleasure. Voices from the deep are never to be entertained with anything but healthy caution and fear. It is to your benefit you know this. */
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10009 /* An inversion of the expected outcome is it? You have made the tragedy a satire and turned it on its head. Though I prefer the bittersweet myself. Better to dream and long for a thing that cannot be than flee in fear from a thing that isn't there. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10009 /* An inversion of the expected outcome is it? You have made the tragedy a satire and turned it on its head. Though I prefer the bittersweet myself. Better to dream and long for a thing that cannot be than flee in fear from a thing that isn't there. */
 == GARRIJ IF ~InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @10010 /* Well that was a very... disappointing conclusion to this story. Maybe I'll leave this one out of the songs altogether... */
 == VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @10011 /* Such a gullible fool. Just like all surfacers their first reaction to all things they do not understand is to run and hide.  */
 == DJHONEN @10012 /* I think I'll take the next caravan to Targos. */
 END
 
 I_C_T3 DJHONEN 14 WIDJHONEN14
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10013 /* And now finally freed from the songs in his dreams that tormented him, this hound will spend his nights howling in torment by the silence of their absence. A breathtakingly tragic climax. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10013 /* And now finally freed from the songs in his dreams that tormented him, this hound will spend his nights howling in torment by the silence of their absence. A breathtakingly tragic climax. */
 == GARRIJ IF ~InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @10014 /* I think I'll miss it too. I only just heard it the once, but it's not something you ever forget. Maybe I'll might write a song about it. */
 == QUAYLJ IF ~InParty("Quayle") InMyArea("Quayle") !StateCheck("Quayle",CD_STATE_NOTVALID) InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @10015 /* A song about a song? No one is going to want to listen to that. */
 == GARRIJ IF ~InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID) InParty("Quayle") InMyArea("Quayle") !StateCheck("Quayle",CD_STATE_NOTVALID)~ THEN @10016 /* *sigh* You're probably right.* */
@@ -82,7 +82,7 @@ I_C_T3 DELISIA 0 WIDELISIA0
 == KIVANJ IF ~InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID)~ THEN @10040 /* Sweet is the song she sings. So sweet, it pains me to hear it, but I cannot help but listen. */
 == XANJ IF ~InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID)~ THEN @10041 /* Her song... it is pleasing to the ear. But there is a dread as well and I feel like I might be drowning. The sweetest death so they say, and by they, I mean complete idiots who think any death could be sweet. */
 == CORANJ IF ~InParty("Coran") InMyArea("Coran") !StateCheck("Coran",CD_STATE_NOTVALID)~ THEN @10042 /* Greetings m'lady. Might I say, your skin is such a fine shade of blue. I dare say I've seen many exotic women in my time, but none attracted the eye so favorably as you.  */
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10043 /* Ahh the Dreamer's dilemma takes shape before us. I sense a longing, a lingering love in her tune my raven.  */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10043 /* Ahh the Dreamer's dilemma takes shape before us. I sense a longing, a lingering love in her tune my raven.  */
 END
 
 I_C_T3 DELISIA 7 WIDELISIA7
@@ -555,10 +555,10 @@ I_C_T3 DORRICK 3 WIDORRICK3
 == KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @10293 /* Seeing as your tower is located in this town, I must disagree with you on that point. Anything that threatens this town threatens you as well. Even speaking strictly from pragmatism you must value your surroundings more than that. */
 == DORRICK IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @10294 /* Had I not contingencies prepared that would transport me immediately to a sanctuary far from here, I might agree. My own personal safety is untethered to this region. */
 == EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @10295 /* Feh! What magical mastery can be obtained from sequestering yourself to a single tower? */
-== HAERDAJ IF ~InParty("Haer'dalis") InMyArea("Haer'dalis") !StateCheck("Haer'dalis",CD_STATE_NOTVALID) InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @10296 /* Does this sparrow's ears deceive him? Why my red-cloaked sparrow-hawke, have you been hiding a starry-eyed wanderlust from me this whole time? Perhaps even a sense of comraderie? */
-== EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID) InParty("Haer'dalis") InMyArea("Haer'dalis") !StateCheck("Haer'dalis",CD_STATE_NOTVALID)~ THEN @10297 /* Do not think yourself so clever bard. I have merely seen the advantage of traveling with others to further my own power (the more cannon fodder the better). I may use this group for a time and then leave as I wish! */
-== HAERDAJ IF ~InParty("Haer'dalis") InMyArea("Haer'dalis") !StateCheck("Haer'dalis",CD_STATE_NOTVALID) InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @10298 /* Of course my sparrow-hawke. I'd never think otherwise (mayhaps I am beginning to rub off on him. His monologuing has only increased in intensity since we began traveling.) */
-== EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID) InParty("Haer'dalis") InMyArea("Haer'dalis") !StateCheck("Haer'dalis",CD_STATE_NOTVALID)~ THEN @10299 /* Damn you bard I can hear you! */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID) InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @10296 /* Does this sparrow's ears deceive him? Why my red-cloaked sparrow-hawke, have you been hiding a starry-eyed wanderlust from me this whole time? Perhaps even a sense of comraderie? */
+== EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID) InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10297 /* Do not think yourself so clever bard. I have merely seen the advantage of traveling with others to further my own power (the more cannon fodder the better). I may use this group for a time and then leave as I wish! */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID) InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @10298 /* Of course my sparrow-hawke. I'd never think otherwise (mayhaps I am beginning to rub off on him. His monologuing has only increased in intensity since we began traveling.) */
+== EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID) InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10299 /* Damn you bard I can hear you! */
 END
 
 I_C_T3 DORRICK 4 WIDORRICK4
@@ -816,9 +816,9 @@ I_C_T3 DARUNDEL 91 WIDARUNDEL91
 END
 
 I_C_T3 DARUNDEL 94 WIDARUNDEL94
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10406 /* A bit of the Blood War found its way to the Prime? How intriguing... */
-== AERIEJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID) InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @10407 /* Blood war? */
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID) InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @10408 /* Tis a conflict as old as the planes and ill fit for a dove's ears. But perhaps I will explain later. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10406 /* A bit of the Blood War found its way to the Prime? How intriguing... */
+== AERIEJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID) InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @10407 /* Blood war? */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID) InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @10408 /* Tis a conflict as old as the planes and ill fit for a dove's ears. But perhaps I will explain later. */
 == DYNAHJ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @10409 /* I fear we hath found our way b'twixt a war glimpsed in my most fevered dreams and carried out the will of a fiend. */
 == AJANTJ IF ~InParty("Ajantis") InMyArea("Ajantis") !StateCheck("Ajantis",CD_STATE_NOTVALID)~ THEN @10410 /* We were played for fools! If only I had been more vigilent. Helm forgive me. */
 END
@@ -1161,7 +1161,7 @@ I_C_T3 DMYTOS 19 WIDMYTOS19
 END
 
 I_C_T3 DKRESSEL 2 WIDKRESSEL2
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10559 /* It seems we've had an audience all this way. I hope that our performance has been equal parts inspiring and dreadful. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10559 /* It seems we've had an audience all this way. I hope that our performance has been equal parts inspiring and dreadful. */
 == KHALIJ IF ~InParty("Khalid") InMyArea("Khalid") !StateCheck("Khalid",CD_STATE_NOTVALID)~ THEN @10560 /* Watching us? Oh d-dear... I d-don't like the thought of t-that one b-bit. */
 END
 
@@ -1174,7 +1174,7 @@ I_C_T DKRESSEL 5 WIDKRESSEL5
 END
 
 I_C_T3 DKRESSEL 6 WIDKRESSEL6
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10563 /* Ahh that moment when the revelries of youth fade and the looming void of the inevitable eclipses all things. Tis a monologue I've performed often. I can scarce wait to experience the truth of it myself. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10563 /* Ahh that moment when the revelries of youth fade and the looming void of the inevitable eclipses all things. Tis a monologue I've performed often. I can scarce wait to experience the truth of it myself. */
 == KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @10564 /* The same as any Tyrant. Turned to a coward as soon as their strength of arms fails them. */
 END
 
@@ -1285,7 +1285,7 @@ I_C_T DLIZARDK 0 WIDLIZARDK0
 END
 
 I_C_T DLIZARDK 1 WIDLIZARDK
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10606 /* Yxunomei? A peculiar name, surely not native of the Prime. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10606 /* Yxunomei? A peculiar name, surely not native of the Prime. */
 END
 
 I_C_T DLIZARDK 2 WIDLIZARDK2
@@ -1554,7 +1554,7 @@ I_C_T3 DYXUNG 2 WIDYXUNG2
 END
 
 I_C_T3 DYXUNG 3 WIDYXUNG3
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10708 /* Such delightful poetry, the musings of a creature from the great beyond! Ah, and is that the scent of the Abyss I detect?  */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10708 /* Such delightful poetry, the musings of a creature from the great beyond! Ah, and is that the scent of the Abyss I detect?  */
 == DYNAHJ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @10709 /* Keep thy dark visions to thyself. We need them not. */
 == SHARTJ IF ~InParty("SharTeel") InMyArea("SharTeel") !StateCheck("SharTeel",CD_STATE_NOTVALID)~ THEN @10710 /* It's not my way to kill little girls but the more she speaks, the more I'm reconsidering that. */
 END
@@ -1585,7 +1585,7 @@ I_C_T3 DYXUN 14 WIDYXUN14
 END
 
 I_C_T3 DYXUN 15 WIDYXUN15
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10718 /* Ah, I know of only one war that could be described as such. It makes this sparrow a touch homesick...  */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10718 /* Ah, I know of only one war that could be described as such. It makes this sparrow a touch homesick...  */
 == JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @10719 /* That sounds almost as serious as the Garlic War of 1342.  */
 END
 
@@ -1595,7 +1595,7 @@ I_C_T3 DYXUN 20 WIDYXUN20
 END
 
 I_C_T DYXUN 26 WIDYXUN26
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10722 /* Beautifully spoken! A universal truth that hardly need stating. However, perhaps my dear Tanar'ri, you might speak such with more joy and less... condescension. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10722 /* Beautifully spoken! A universal truth that hardly need stating. However, perhaps my dear Tanar'ri, you might speak such with more joy and less... condescension. */
 END
 
 I_C_T DYXUN 34 WIDYXUN34
@@ -1669,7 +1669,7 @@ I_C_T3 DTEALNIS 0 WIDTEALNIS0
 == CORANJ IF ~InParty("Coran") InMyArea("Coran") !StateCheck("Coran",CD_STATE_NOTVALID)~ THEN @10749 /* Greetings Telanis. It is refreshing to see that even as a haunt of these halls, your lust for life has not faded.  */
 == GARRIJ IF ~InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @10750 /* Oh fantastic! Imagine what stories and songs he'd have to tell! */
 == ELDOTJ IF ~InParty("Eldoth") InMyArea("Eldoth") !StateCheck("Eldoth",CD_STATE_NOTVALID)~ THEN @10751 /* Oh, do spare us. He is like a dog waiting to show his master a new trick. */
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10752 /* Not even the cold tug of oblivion seems to have diminished this one. Aha! Fair enough my hound, please continue. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10752 /* Not even the cold tug of oblivion seems to have diminished this one. Aha! Fair enough my hound, please continue. */
 END
 
 I_C_T3 DTEALNIS 1 WIDTEALNIS1
@@ -1750,7 +1750,7 @@ END
 
 I_C_T3 DKAYLESS 11 WIDKAYLESS11
 == DYNAHJ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @10787 /* I woulds't most like to gaze upon this astrolabe. In it we may understand how to beseech Larrel for aid as well as for mine own curiosity. */
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10788 /* I've heard of Prime mages using such devices to glimpse into the Planes. Like the props of a play suspended over the stage, our audience can glimpse the terror and wonder of things beyond their ken with imagination as their guide! */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10788 /* I've heard of Prime mages using such devices to glimpse into the Planes. Like the props of a play suspended over the stage, our audience can glimpse the terror and wonder of things beyond their ken with imagination as their guide! */
 END
 
 I_C_T3 DKAYLESS 15 WIDKAYLESS15
@@ -1864,7 +1864,7 @@ I_C_T3 DLARREL 36 WIDLARREL36
 END
 
 I_C_T3 DLARREL 39 WIDLARREL39
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10825 /* Ah the doomed last stand, tis a crowd pleaser in any play and a more fitting metaphor for the condition of life I cannot imagine. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10825 /* Ah the doomed last stand, tis a crowd pleaser in any play and a more fitting metaphor for the condition of life I cannot imagine. */
 == KIVANJ IF ~InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID)~ THEN @10826 /* They did their people proud... but to have so many lives cut so short... */
 END
 
@@ -1947,7 +1947,7 @@ I_C_T DBANDOTH 14 WIDBANDOTH14
 END
 
 I_C_T DBANDOTH 16 WIDBANDOTH16
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10865 /* Razorvine, truly? Tis unusual for it to be found anywhere but the lower planes. And Sigil of course. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10865 /* Razorvine, truly? Tis unusual for it to be found anywhere but the lower planes. And Sigil of course. */
 END
 
 I_C_T3 DBANDOTH 17 WIDBANDOTH17
@@ -2033,7 +2033,7 @@ I_C_T3 DNORLINO 3 WIDNORLINO3
 END
 
 I_C_T3 DNORLINO 4 WIDNORLINO4
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10901 /* A glimpse into oblivion from your very home hmm? T'would be a grand sight, though best viewed at a distance. The negative energy plane is most unkind to the living. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10901 /* A glimpse into oblivion from your very home hmm? T'would be a grand sight, though best viewed at a distance. The negative energy plane is most unkind to the living. */
 == DYNAHJ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @10902 /* Whilst portals to the elemental planes are not so uncommon, one to the energy planes is most rare and they shouldst be treated with utmost caution. */
 END
 
@@ -2151,7 +2151,7 @@ I_C_T DDAVIN 17 WIDDAVIN17
 END
 
 I_C_T3 DDAVIN 18 WIDDAVIN18
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10947 /* In every tale there is a truth my beaten hound, even the most fantastic of them. Perhaps this experience has expanded your imagination if naught else. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10947 /* In every tale there is a truth my beaten hound, even the most fantastic of them. Perhaps this experience has expanded your imagination if naught else. */
 == IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @10948 /* Huh... I suppose I never really think ‘bout normal folk that don't fight monsters and creep through dungeons all the time. I guess all this stuff seems pretty unbelievable if you aren't always exposed to it like we are. */
 == TIAXJ IF ~InParty("Tiax") InMyArea("Tiax") !StateCheck("Tiax",CD_STATE_NOTVALID)~ THEN @10949 /* Ignore those worthless fables! The only tale you need know is the one of Tiax and how he ascends to absolute power! It is a tale of the ages and for all ages... full of extreme violence and adult situations. */
 END
@@ -2289,7 +2289,7 @@ I_C_T3 DGARETH 9 WIDGARETH9
 END
 
 I_C_T DGARETH 12 WIDGARETH12
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10994 /* The door in your grasp, but the key, missing! Tis a most maddening sensation for a thing to be so close yet so out of reach. Will the final act end in tragedy or triumph? */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @10994 /* The door in your grasp, but the key, missing! Tis a most maddening sensation for a thing to be so close yet so out of reach. Will the final act end in tragedy or triumph? */
 END
 
 I_C_T3 DGARETH 22 WIDGARETH22
@@ -2497,7 +2497,7 @@ END
 
 I_C_T3 DDIRTYLL 5 WIDDIRTYLL5
 == SAFANJ IF ~InParty("Safana") InMyArea("Safana") !StateCheck("Safana",CD_STATE_NOTVALID)~ THEN @11082 /* The less we know about the actual origin of that nickname, the better. */
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11083 /* My hound, you may be a great number of things, but a poet you are not. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11083 /* My hound, you may be a great number of things, but a poet you are not. */
 END
 
 I_C_T3 DDIRTYLL 7 WIDDIRTYLL7Skie
@@ -2519,7 +2519,7 @@ I_C_T3 DNORL 5 WIDNORL5
 END
 
 I_C_T3 DNORL 6 WIDNORL6
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11090 /* This Poquelin sounds like a man with a taste for the flamboyant. Sometimes the easiest way to hide is not away from sight but rather in the shadow of something larger than life. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11090 /* This Poquelin sounds like a man with a taste for the flamboyant. Sometimes the easiest way to hide is not away from sight but rather in the shadow of something larger than life. */
 == GARRIJ IF ~InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @11091 /* Red stains around feet of robes... and red wraps over wrists... and could you repeat that last part? I'm trying to write this all down for when I compose the epic tale of our journey. */
 END
 
@@ -2579,8 +2579,8 @@ I_C_T DFLOZEM 3 WIDFLOZEM3
 END
 
 I_C_T3 DFLOZEM 7 WIDFLOZEM7
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11116 /* Aha well done my Raven! If only we could convince all ne'er do wells to pursue a career in the arts rather than die in our wake. The world, nay the multiverse itself, would be a much better place. */
-== DFLOZEM IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11117 /* Watch out art world, here I come! */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11116 /* Aha well done my Raven! If only we could convince all ne'er do wells to pursue a career in the arts rather than die in our wake. The world, nay the multiverse itself, would be a much better place. */
+== DFLOZEM IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11117 /* Watch out art world, here I come! */
 == IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11118 /* Knock em dead out there! Uh, but with your paintbrush and not your sword cause then you'd just be doing what you were already doing here. */
 == DFLOZEM IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11117 /* Watch out art world, here I come! */
 END
@@ -2824,7 +2824,7 @@ I_C_T DPOQUELI 11 WIDPOQUELI11
 END
 
 I_C_T DPOQUELI 14 WIDPOQUELI14
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11188 /* To a fiend, hate is akin to love and is enough to cross the planes themselves. Tis a romance under any other name. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11188 /* To a fiend, hate is akin to love and is enough to cross the planes themselves. Tis a romance under any other name. */
 END
 
 I_C_T3 DPOQUELI 16 WIDPOQUELI16
@@ -2852,7 +2852,7 @@ END
 
 I_C_T3 DPOMEND 3 WIDPOMEND3
 == GARRIJ IF ~InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @11197 /* Nothing is beyond imagination! Or... at least I hope so. Or else this story is going to have a very unsatisfying ending for the reader. */
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11198 /* A fiend of the lower planes? Tis not so ineffable a concept, though they certainly enjoy to pretend as such. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11198 /* A fiend of the lower planes? Tis not so ineffable a concept, though they certainly enjoy to pretend as such. */
 END
 
 I_C_T DPOMEND 6 WIDPOMEND6
@@ -2916,7 +2916,7 @@ I_C_T3 DBELHIFE 12 WIDBELHIFE12
 == ALORAJ IF ~InParty("Alora") InMyArea("Alora") !StateCheck("Alora",CD_STATE_NOTVALID)~ THEN @11232 /* If you can't learn to be nice then we'll have to put you on time out for a couple thousand years. */
 == SAFANJ IF ~InParty("Safana") InMyArea("Safana") !StateCheck("Safana",CD_STATE_NOTVALID)~ THEN @11233 /* How much am I getting paid for this? Oh nevermind, we can discuss it after. Whatever share I'm getting isn't enough. */
 == XANJ IF ~InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID)~ THEN @11234 /* A faint glimmer of hope... will it be enough to triumph despite all odds being against us? I have my doubts but I will do what I can. */
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11235 /* Ha! Now this be a tale for the ages! Give my regards to whichever Baatezu Lord you serve when you see them. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11235 /* Ha! Now this be a tale for the ages! Give my regards to whichever Baatezu Lord you serve when you see them. */
 == JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @11236 /* Show no hesitation. We have one chance. Strike with the wrath of Nature! */
 == HEXXATJ IF ~InParty("Hexxat") InMyArea("Hexxat") !StateCheck("Hexxat",CD_STATE_NOTVALID)~ THEN @11237 /* This has been an interesting venture <CHARNAME>, and quite profitable. Please do not die now. I would dislike our partnership to end here. */
 == QUAYLJ IF ~InParty("Quayle") InMyArea("Quayle") !StateCheck("Quayle",CD_STATE_NOTVALID)~ THEN @11238 /* Uhh... go get him everyone! My brain will assist from uhh... the back lines where it won't be in danger! */
@@ -2973,7 +2973,7 @@ I_C_T DHJOLLDE 17 WIDHJOLLDE17
 END
 
 I_C_T3 DHJOLLDE 21 WIDHJOLLDE21
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11262 /* Aha! Then birds we will be! Let us swoop and soar to our destination! */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11262 /* Aha! Then birds we will be! Let us swoop and soar to our destination! */
 == NEERAJ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @11263 /* Wait wait wait! I get translocation sick really easy. Just a quick cantrip to protect from nausea and I'll be ready. */
 END
 
@@ -3016,7 +3016,7 @@ END
 
 I_C_T3 DHJOLLDE 57 WIDHJOLLDE57
 == NEERAJ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @11274 /* And we're heading there at this time of the year? Gosh, you guys I don't know, sounds like it could be lousy with tourists. */
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11275 /* What an evocative legend! For what light can there be without darkness? The greatest fire casts the longest shadow. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11275 /* What an evocative legend! For what light can there be without darkness? The greatest fire casts the longest shadow. */
 END
 
 I_C_T DHJOLLDE 58 WIDHJOLLDE58
@@ -3025,7 +3025,7 @@ END
 
 I_C_T3 DHAILEE 1 WIDHAILEE1
 == YOSHJ IF ~InParty("Yoshimo") InMyArea("Yoshimo") !StateCheck("Yoshimo",CD_STATE_NOTVALID)~ THEN @11277 /* Ah she is a spritely one is she not? */
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11278 /* A truly tragic story, though this sparrow suspects it is simply just that. She has talent, given proper training, I suspect the stage would welcome her gladly. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11278 /* A truly tragic story, though this sparrow suspects it is simply just that. She has talent, given proper training, I suspect the stage would welcome her gladly. */
 END
 
 I_C_T DHAILEE 4 WIDHAILEE4
@@ -3071,7 +3071,7 @@ I_C_T3 DHAILEE 21 WIDHAILEE21
 END
 
 I_C_T DHAILEE 34 WIDHAILEE34
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11300 /* Well, it certainly wasn't my song. My Raven, I think I will leave the maritime ballads to you. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11300 /* Well, it certainly wasn't my song. My Raven, I think I will leave the maritime ballads to you. */
 END
 
 I_C_T DHAILEE 35 WIDHAILEE35
@@ -3276,7 +3276,7 @@ I_C_T DHOBART 31 WIDHOBART31
 END
 
 I_C_T3 DHOBART 34 WIDHOBART34
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11369 /* Akin to being trapped in one of the Lady's mazes. Usually tis only a man's sanity that flies free from such traps. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11369 /* Akin to being trapped in one of the Lady's mazes. Usually tis only a man's sanity that flies free from such traps. */
 == XANJ IF ~InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID)~ THEN @11370 /* Some sort of dimensional anchor... what a dreadful fate to be held captive here until your body falls apart. */
 END
 
@@ -3346,7 +3346,7 @@ I_C_T3 DMURDAUG 48 WIDMURDAUG48
 == NEERAJ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @11393 /* That was... so beautiful... and... I think I'm having some trouble breathing... I think I need to... go sit over there... again... */
 == ELDOTJ IF ~InParty("Eldoth") InMyArea("Eldoth") !StateCheck("Eldoth",CD_STATE_NOTVALID)~ THEN @11394 /* Ha! Not a bad tale... and with a riotous punchline to boot. */
 == GARRIJ IF ~InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @11395 /* Fascinating! I think I have this all written down. Oh I'll make sure you're credited when I publish my book! */
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11396 /* A fine tale indeed my melancholy magpie! */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11396 /* A fine tale indeed my melancholy magpie! */
 == KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @11397 /* Bah! All this pamby singin' bout flowers and love has me feelin' sick. I'll thank ya ta shut yer yap at least till I've passed out and spare yerself me axe in yer gut. */
 END
 
@@ -3470,7 +3470,7 @@ I_C_T DTYBALD 30 WIDTYBALD30
 END
 
 I_C_T DTYBALD 40 WIDTYBALD40
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11445 /* Cultivate that imagination of hers. It will take her far, my hound. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11445 /* Cultivate that imagination of hers. It will take her far, my hound. */
 END
 
 I_C_T DTYBALD 41 WIDTYBALD41
@@ -3783,7 +3783,7 @@ I_C_T DMEBD 4 WIDMEBD4
 END
 
 I_C_T DVEXING 0 WIDVEXING0
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11558 /* A word aside if I could, my Raven? If a Glabrezu he is, then I would warn against making any bargains unless you hold his true name. To a native of the outer planes, this seems common knowledge, but Primes are ever clueless about such things. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11558 /* A word aside if I could, my Raven? If a Glabrezu he is, then I would warn against making any bargains unless you hold his true name. To a native of the outer planes, this seems common knowledge, but Primes are ever clueless about such things. */
 END
 
 I_C_T DVEXING 1 WIDVEXING1
@@ -3858,7 +3858,7 @@ I_C_T DTIERNON 25 WIDTIERNON25
 END
 
 I_C_T3 DTIERNON 30 WIDTIERNON30
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11583 /* Congratulations are in order my hound! You have crafted a weapon which spits in the face of reality and revels in the impossibility of its creation! Quite the uncommon sight in the Prime. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11583 /* Congratulations are in order my hound! You have crafted a weapon which spits in the face of reality and revels in the impossibility of its creation! Quite the uncommon sight in the Prime. */
 == YOSHJ IF ~InParty("Yoshimo") InMyArea("Yoshimo") !StateCheck("Yoshimo",CD_STATE_NOTVALID)~ THEN @11584 /* A truly remarkable work. I had not believed it was possible to create such a thing... even now I question its existence.  */
 == YESLIJ IF ~InParty("Yeslick") InMyArea("Yeslick") !StateCheck("Yeslick",CD_STATE_NOTVALID)~ THEN @11585 /* The craftsmanship is... remarkable. Yet still... it spits upon what it is to be dwarf. I just... I cannae condone it in good faith. */
 END
@@ -3890,7 +3890,7 @@ END
 
 I_C_T3 DSEER 8 WIDSEER8
 == DYNAHJ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @11593 /* Tis a dire premonition. To see one's own death and be powerless to stop its coming... for the veil of freedom of thine will to be rended so thin. I would fare no better with such knowledge. */
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11594 /* You've seen the climax before the curtains have even lifted? What a disappointment that would be. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11594 /* You've seen the climax before the curtains have even lifted? What a disappointment that would be. */
 == TIAXJ IF ~InParty("Tiax") InMyArea("Tiax") !StateCheck("Tiax",CD_STATE_NOTVALID)~ THEN @11595 /* Tiax has not seen his own death... his life is never ending! */
 END
 
@@ -3976,7 +3976,7 @@ END
 
 I_C_T3 DICASA 28 WIDICASA28
 == CERNDJ IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @11625 /* Perhaps one day the cycle will spin again in the favor of your race. But that day is not today. Fade away, as you should have so long ago. */
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11626 /* Then oblivion it shall be! Worry not, we shall all meet you shortly; in the inevitable absence of all things at the end of time. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11626 /* Then oblivion it shall be! Worry not, we shall all meet you shortly; in the inevitable absence of all things at the end of time. */
 END
 
 //IWD TotLM Dialogue Interjections
@@ -3991,7 +3991,7 @@ I_C_T DLURE 3 WIDLURE3
 END
 
 I_C_T DLURE 4 WIDLURE4
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11630 /* It seems this spirit seeks to conduct a play in which our roles have already been set. *sigh* It is a tiresome script that we dance to. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11630 /* It seems this spirit seeks to conduct a play in which our roles have already been set. *sigh* It is a tiresome script that we dance to. */
 END
 
 I_C_T DLURE 10 WIDLURE10
@@ -3999,7 +3999,7 @@ I_C_T DLURE 10 WIDLURE10
 END
 
 I_C_T DLURE 13 WIDLURE13
-== HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @11632 /* And so we continue to perform his play with only the barest script to read from. Ah well, this sparrow always did have a penchant for improvisation. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11632 /* And so we continue to perform his play with only the barest script to read from. Ah well, this sparrow always did have a penchant for improvisation. */
 END
 
 I_C_T DLURE 14 WIDLURE14
@@ -4101,7 +4101,7 @@ END
 // Icewind Dale 2 Banter starts Here
 
 I_C_T3 10HEDRON 20 WI10HEDRON20
-== HAERDAJ IF ~InParty("Haer'dalis") InMyArea("Haer'dalis") !StateCheck("Haer'dalis",CD_STATE_NOTVALID)~ THEN @11663 /* My Raven! Fire and cinder all around. We are in the midst of a symphony. Shall we step on the stage and become players ourselves? Lead on! */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11663 /* My Raven! Fire and cinder all around. We are in the midst of a symphony. Shall we step on the stage and become players ourselves? Lead on! */
 == AERIEJ IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @11664 /* Oh dear, this looks horrible! We should check on the people here to make sure they're ok before we talk to... whoever here is in charge. It looks like they've done more damage to their town on their own than the goblins will. */
 == MONTAJ IF ~InParty("Montaron") InMyArea("Montaron") !StateCheck("Montaron",CD_STATE_NOTVALID)~ THEN @11665 /* Must we journey to a place so damnably miserable?! The cold is bad enough, ye bring us to a siege as well? You would do well to remember that I expect to be paid for my hardships in gold or I'll take it in blood instead... */
 == BAELOTHJ IF ~InParty("Baeloth") InMyArea("Baeloth") !StateCheck("Baeloth",CD_STATE_NOTVALID)~ THEN @11666 /* It's not enough I have to be dragged along on the surface, I must be brought to the most INHOSPITABLE AND VIOLENT place on it?! What did I ever do to deserve this? Did I beat my slaves too hard? Did I beat them not hard enough? Oh just forget it... lead the way... */ 
@@ -4264,7 +4264,7 @@ I_C_T 10FIRTHA 20 WI10Firtha20
 END
 
 I_C_T 10FIRTHA 21 WI10Firtha21
-== HAERDAJ IF ~InParty("Haer'dalis") InMyArea("Haer'dalis") !StateCheck("Haer'dalis",CD_STATE_NOTVALID)~ THEN @11752 /* Tis a tragedy I know well of. I'd love to hear the tale but perhaps from a performer who sings more like a dove or osprey and less like an abyssal vrock. */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11752 /* Tis a tragedy I know well of. I'd love to hear the tale but perhaps from a performer who sings more like a dove or osprey and less like an abyssal vrock. */
 END
 
 I_C_T3 10FIRTHA 50 WI10Firtha50
@@ -4280,7 +4280,7 @@ I_C_T3 10FIRTHA 51 WI10Firtha51
 END
 
 I_C_T 10FIRTHA 46 WI10Firtha46
-== HAERDAJ IF ~InParty("Haer'dalis") InMyArea("Haer'dalis") !StateCheck("Haer'dalis",CD_STATE_NOTVALID)~ THEN @11756 /* Ah that could be none other than Sigil, the finest city in all the planes in the estimation of this humble sparrow. A true majesty of the outer planes and often infested by the razorvine plant which also matches your description. The glacier of black... perhaps the river Styx as it cascades down Acheron...  */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @11756 /* Ah that could be none other than Sigil, the finest city in all the planes in the estimation of this humble sparrow. A true majesty of the outer planes and often infested by the razorvine plant which also matches your description. The glacier of black... perhaps the river Styx as it cascades down Acheron...  */
 == 10FIRTHA @11757 /* Ye talkin in gibberish boy, speak plainly. */
 == HAERDAJ @11758 /* Mmm, perhaps I will sit out the rest of this conversation in reverie instead. Her manner is giving this sparrow a most severe headache. */
 END

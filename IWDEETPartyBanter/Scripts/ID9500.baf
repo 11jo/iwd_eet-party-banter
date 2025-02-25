@@ -2,13 +2,13 @@ IF
   Global("WIHaerGloomF","ID9500",0)
   !StateCheck(Player1,CD_STATE_NOTVALID)
   CombatCounter(0)
-  InParty("Haer'dalis")
-  InMyArea("Haer'dalis")
-  !StateCheck("Haer'dalis",STATE_SLEEPING)
+  InParty("HaerDalis")
+  InMyArea("HaerDalis")
+  !StateCheck("HaerDalis",STATE_SLEEPING)
 THEN
   RESPONSE #100
     SetGlobal("WIHaerGloomF","ID9500",1)
-	DisplayString("Haer'dalis",@2550 /* So this is the Gloomfrost is it? It feels as though we've stepped into the very heart of Cania itself. I cannot say it speaks to my own poetic sensibilities however. Where is room for entropy when all is frozen so utterly? */)
+	DisplayString("HaerDalis",@2550 /* So this is the Gloomfrost is it? It feels as though we've stepped into the very heart of Cania itself. I cannot say it speaks to my own poetic sensibilities however. Where is room for entropy when all is frozen so utterly? */)
 END
 
 IF

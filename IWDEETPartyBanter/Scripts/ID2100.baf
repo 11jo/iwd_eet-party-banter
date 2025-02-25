@@ -28,11 +28,11 @@ IF
   Global("WIHaerKuldahar","ID2100",0)
   !StateCheck(Player1,CD_STATE_NOTVALID)
   CombatCounter(0)
-  InParty("Haer'Dalis")
-  InMyArea("Haer'Dalis")  
-  !StateCheck("Haer'Dalis",STATE_SLEEPING)
+  InParty("HaerDalis")
+  InMyArea("HaerDalis")  
+  !StateCheck("HaerDalis",STATE_SLEEPING)
 THEN
   RESPONSE #100
     SetGlobal("WIHaerKuldahar","ID2100",1)
-	DisplayString("Haer'Dalis",@452 /* Do our feet still touch the Prime? Have we wandered through some hidden hollow into a portal to Aboria itself? It seems that celestial vistas can exist outside the domain of the gods indeed! */)
+	DisplayString("HaerDalis",@452 /* Do our feet still touch the Prime? Have we wandered through some hidden hollow into a portal to Aboria itself? It seems that celestial vistas can exist outside the domain of the gods indeed! */)
 END
