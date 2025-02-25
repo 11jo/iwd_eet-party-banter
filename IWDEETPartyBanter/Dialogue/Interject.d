@@ -175,9 +175,9 @@ END
 I_C_T3 DACCALIA 15 WIDACCALIA15
 == BRANWJ IF ~InParty("Branwen") InMyArea("Branwen") !StateCheck("Branwen",CD_STATE_NOTVALID)~ THEN @10095
 == DACCALIA IF ~InParty("Branwen") InMyArea("Branwen") !StateCheck("Branwen",CD_STATE_NOTVALID)~ THEN @10096
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10097
-== DACCALIA IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10098
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10099
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10097
+== DACCALIA IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10098
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10099
 END
 
 I_C_T3 DACCALIA 3 WIDACCALIA3
@@ -191,8 +191,8 @@ I_C_T3 DEVERARD 6 WIDEVERARD6
 == KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @10104
 == DEVERARD @10105
 == KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @10106
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10107
-== DEVERARD IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10108
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10107
+== DEVERARD IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10108
 END
 
 I_C_T3 DEVERARD 8 WIDEVERARD8
@@ -355,14 +355,14 @@ END
 
 I_C_T3 DHERMIT 9 WIDHERMIT9
 == KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @10197
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10198
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10198
 == AJANTJ IF ~InParty("Ajantis") InMyArea("Ajantis") !StateCheck("Ajantis",CD_STATE_NOTVALID)~ THEN @10199
 == DYNAHJ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @10200
 END
 
 I_C_T3 DHERMIT 10 WIDHERMIT10
 == KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @10197
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10198
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10198
 == AJANTJ IF ~InParty("Ajantis") InMyArea("Ajantis") !StateCheck("Ajantis",CD_STATE_NOTVALID)~ THEN @10199
 == DYNAHJ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @10200
 END
@@ -387,7 +387,7 @@ I_C_T3 DOGRE 0 WIDOGRE0
 == YESLIJ IF ~InParty("Yeslick") InMyArea("Yeslick") !StateCheck("Yeslick",CD_STATE_NOTVALID)~ THEN @10208
 == DOGRE IF ~InParty("Yeslick") InMyArea("Yeslick") !StateCheck("Yeslick",CD_STATE_NOTVALID)~ THEN @10209
 == YESLIJ IF ~InParty("Yeslick") InMyArea("Yeslick") !StateCheck("Yeslick",CD_STATE_NOTVALID)~ THEN @10210
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10211
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10211
 END
 
 I_C_T3 DOGRE 1 WIDOGRE1
@@ -494,8 +494,8 @@ I_C_T3 DFERG 3 WIDFERG3
 END
 
 I_C_T3 DFERG 11 WIDFERG11
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10263
-== DFERG IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10264
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10263
+== DFERG IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10264
 END
 
 I_C_T3 DMIREK 0 WIDMIREK0
@@ -652,10 +652,10 @@ I_C_T3 DARUNDEL 19 WIDARUNDEL19
 END
 
 I_C_T3 DARUNDEL 21 WIDARUNDEL21
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10340
-== DORNJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID) InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @10341
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID) InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @10342
-== DORNJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID) InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @10343
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10340
+== DORNJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID) InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @10341
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID) InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @10342
+== DORNJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID) InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @10343
 END
 
 I_C_T3 DARUNDEL 22 WIDARUNDEL22
@@ -1062,7 +1062,7 @@ I_C_T DTHERIK 4 WIDTHERIK4
 END
 
 I_C_T DTHERIK 6 WIDTHERIK6
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10523
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10523
 == DTHERIK @10524
 END
 
@@ -1212,7 +1212,7 @@ END
 I_C_T3 DKRESSEL 22 WIDKRESSEL22
 == VALYGARJ IF ~InParty("Valygar") InMyArea("Valygar") !StateCheck("Valygar",CD_STATE_NOTVALID)~ THEN @10578
 == BRANWJ IF ~InParty("Branwen") InMyArea("Branwen") !StateCheck("Branwen",CD_STATE_NOTVALID)~ THEN @10579
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10580
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10580
 END
 
 I_C_T3 DKRESSEL 24 WIDKRESSEL24
@@ -1462,7 +1462,7 @@ I_C_T3 DALBION 1 WIDALBION1
 END
 
 I_C_T DALBION 6 WIDALBION6
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10674
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10674
 END
 
 I_C_T DALBION 9 WIDALBION9
@@ -1507,8 +1507,8 @@ END
 
 I_C_T3 DMARCH 5 WIDMARCH5
 == CERNDJ IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @10687
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10688
-== DMARCH IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10689
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10688
+== DMARCH IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10689
 END
 
 I_C_T3 DHIGHRIT 0 WIDHIGHRIT0
@@ -1556,7 +1556,7 @@ END
 I_C_T3 DYXUNG 3 WIDYXUNG3
 == HAERDAJ IF ~InParty("Haer'Dalis") InMyArea("Haer'Dalis") !StateCheck("Haer'Dalis",CD_STATE_NOTVALID)~ THEN @10708
 == DYNAHJ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @10709
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10710
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10710
 END
 
 I_C_T DYXUN 1 WIDYXUN1
@@ -1734,9 +1734,9 @@ I_C_T3 DDENAINI 16 WIDDENAINI16
 END
 
 I_C_T3 DKAYLESS 5 WIDKAYLESS5
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10781
-== DKAYLESS IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10782
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10783
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10781
+== DKAYLESS IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10782
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10783
 END
 
 I_C_T DKAYLESS 7 WIDKAYLESS7
@@ -1759,8 +1759,8 @@ I_C_T3 DKAYLESS 15 WIDKAYLESS15
 END
 
 I_C_T3 DKAYLESS 18 WIDKAYLESS18
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10791
-== DKAYLESS IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10792
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10791
+== DKAYLESS IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10792
 == KIVANJ IF ~InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID)~ THEN @10793
 == DKAYLESS IF ~InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID)~ THEN @10794
 END
@@ -1774,7 +1774,7 @@ I_C_T DVALESTI 2 WIDVALESTI2
 END
 
 I_C_T3 DVALESTI 4 WIDVALESTI4
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10796
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10796
 == ANOMENJ IF ~InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @10797
 END
 
@@ -2164,7 +2164,7 @@ I_C_T3 DDAVIN 24 WIDDAVIN24
 END
 
 I_C_T DJORIL 0 WIDJORIL0
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10950
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10950
 END
 
 I_C_T3 DJORIL 3 WIDJORIL3
@@ -2173,7 +2173,7 @@ I_C_T3 DJORIL 3 WIDJORIL3
 END
 
 I_C_T3 DJORIL 5 WIDJORIL5
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10953
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10953
 == SAREV25J IF ~InParty("Sarevok") InMyArea("Sarevok") !StateCheck("Sarevok",CD_STATE_NOTVALID)~ THEN @10954
 END
 
@@ -2344,7 +2344,7 @@ END
 
 I_C_T3 DILMADIA 1 WIDILMADIA1
 == CORANJ IF ~InParty("Coran") InMyArea("Coran") !StateCheck("Coran",CD_STATE_NOTVALID)~ THEN @11015
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11016
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11016
 == VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @11017
 END
 
@@ -2381,12 +2381,12 @@ I_C_T DILMADIA 12 WIDILMADIA12
 END
 
 I_C_T DILMADIA 15 WIDILMADIA15
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11032
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11032
 == DILMADIA @11033
 END
 
 I_C_T DILMADIA 16 WIDILMADIA16
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11032
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11032
 == DILMADIA @11033
 END
 
@@ -2487,7 +2487,7 @@ END
 
 I_C_T3 DDIRTYLL 2 WIDDIRTYLL2
 == IMOEN2J IF ~InParty("Imoen") InMyArea("Imoen") !StateCheck("Imoen",CD_STATE_NOTVALID)~ THEN @11078
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11079
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11079
 END
 
 I_C_T3 DDIRTYLL 3 WIDDIRTYLL3
@@ -2604,8 +2604,8 @@ I_C_T3 DGINAFAE 8 WIDGINAFAE8Dynaheir
 == EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @11125
 END
 
-I_C_T3 DGINAFAE 10 WIDGINAFAE10Shar-Teel
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11126
+I_C_T3 DGINAFAE 10 WIDGINAFAE10Sharteel
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11126
 == MAZZYJ IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @11127
 END
 
@@ -2654,7 +2654,7 @@ I_C_T3 DGINA2 8 WIDGINA28Dynaheir
 END
 
 I_C_T3 DGINA2 10 WIDGINA210
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11138
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11138
 == MAZZYJ IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @11127
 END
 
@@ -2713,10 +2713,10 @@ END
 
 I_C_T3 DMARKETH 5 WIDMARKETH5
 == GARRIJ IF ~InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @11152
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @10060
-== DMARKETH IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11153
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11154
-== DMARKETH IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11155
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @10060
+== DMARKETH IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11153
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11154
+== DMARKETH IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11155
 END
 
 I_C_T DMARKETH 7 WIDMARKETH7
@@ -2833,7 +2833,7 @@ I_C_T3 DPOQUELI 16 WIDPOQUELI16
 END
 
 I_C_T3 DPOQUELI 17 WIDPOQUELI17
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11191
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11191
 == TIAXJ IF ~InParty("Tiax") InMyArea("Tiax") !StateCheck("Tiax",CD_STATE_NOTVALID)~ THEN @11192
 END
 
@@ -2898,7 +2898,7 @@ I_C_T3 DBELHIFE 12 WIDBELHIFE12
 == AERIEJ IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @11214
 == VALYGARJ IF ~InParty("Valygar") InMyArea("Valygar") !StateCheck("Valygar",CD_STATE_NOTVALID)~ THEN @11215
 == GARRIJ IF ~InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @11216
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11217
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11217
 == FALDOJ IF ~InParty("Faldorn") InMyArea("Faldorn") !StateCheck("Faldorn",CD_STATE_NOTVALID)~ THEN @11218
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @11219
 == XZARJ IF ~InParty("Xzar") InMyArea("Xzar") !StateCheck("Xzar",CD_STATE_NOTVALID)~ THEN @11220
@@ -3424,7 +3424,7 @@ I_C_T DPURVIS 17 WIDPURVIS17
 END
 
 I_C_T DPURVIS 18 WIDPURVIS18
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11426
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11426
 == DPURVIS @11427
 END
 
@@ -3547,7 +3547,7 @@ I_C_T DDOOGAL 1 WIDDOOGAL1
 END
 
 I_C_T DDOOGAL 4 WIDDOOGAL4
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11472
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11472
 END
 
 I_C_T DDOOGAL 8 WIDDOOGAL8
@@ -3681,7 +3681,7 @@ I_C_T DWYLF 18 WIDWYLF18
 END
 
 I_C_T DWYLF 20 WIDWYLF20
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11521
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11521
 END
 
 I_C_T3 DWYLF 24 WIDWYLF24
@@ -3930,7 +3930,7 @@ I_C_T3 DXACTILE 3 WIDXACTILE3
 END
 
 I_C_T3 DXACTILE 4 WIDXACTILE4
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11607
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11607
 == KIVANJ IF ~InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID)~ THEN @11608
 END
 
@@ -3957,8 +3957,8 @@ I_C_T DICASA 12 WIDICASA12
 END
 
 I_C_T3 DICASA 18 WIDICASA18
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11616
-== DICASA IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11617
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11616
+== DICASA IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11617
 == RASAADJ IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @11618
 == DICASA IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @11619
 END
@@ -4124,7 +4124,7 @@ I_C_T3 10HEDRON 20 WI10HEDRON20
 == XZARJ IF ~InParty("Xzar") InMyArea("Xzar") !StateCheck("Xzar",CD_STATE_NOTVALID)~ THEN @11681
 == VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @11682 
 == JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @11683
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11684
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11684
 == ELDOTJ IF ~InParty("Eldoth") InMyArea("Eldoth") !StateCheck("Eldoth",CD_STATE_NOTVALID)~ THEN @11685
 == FALDOJ IF ~InParty("Faldorn") InMyArea("Faldorn") !StateCheck("Faldorn",CD_STATE_NOTVALID)~ THEN @11686
 == SAREV25J IF ~InParty("Sarevok") InMyArea("Sarevok") !StateCheck("Sarevok",CD_STATE_NOTVALID)~ THEN @11687
@@ -4162,7 +4162,7 @@ I_C_T 10BLACK 16 WI10Black16
 END
 
 I_C_T 10BLACK 18 WI10Black18
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11710
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11710
 == 10BLACK @11711
 END
 
@@ -4224,7 +4224,7 @@ I_C_T 10KEG 2 WI10Keg2
 END
 
 I_C_T3 10BROGAN 7 WI10Brogan7
-== SHARTJ IF ~InParty("Shar-Teel") InMyArea("Shar-Teel") !StateCheck("Shar-Teel",CD_STATE_NOTVALID)~ THEN @11733
+== SHARTJ IF ~InParty("Sharteel") InMyArea("Sharteel") !StateCheck("Sharteel",CD_STATE_NOTVALID)~ THEN @11733
 == KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @11734
 == KHALIJ IF ~InParty("Khalid") InMyArea("Khalid") !StateCheck("Khalid",CD_STATE_NOTVALID)~ THEN @11735
 END
