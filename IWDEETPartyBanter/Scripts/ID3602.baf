@@ -8,5 +8,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIRasaTempForGod","ID3602",1)
-	DisplayString("Rasaad",~More battle ahead. Be on your guard. These defenders fight desperately to stop us.~)
+	DisplayString("Rasaad",@1000 /* More battle ahead. Be on your guard. These defenders fight desperately to stop us. */)
 END

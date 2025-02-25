@@ -8,7 +8,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIHaerGloomF","ID9500",1)
-	DisplayString("Haer'dalis",~So this is the Gloomfrost is it? It feels as though we've stepped into the very heart of Cania itself. I cannot say it speaks to my own poetic sensibilities however. Where is room for entropy when all is frozen so utterly?~)
+	DisplayString("Haer'dalis",@2550 /* So this is the Gloomfrost is it? It feels as though we've stepped into the very heart of Cania itself. I cannot say it speaks to my own poetic sensibilities however. Where is room for entropy when all is frozen so utterly? */)
 END
 
 IF
@@ -21,5 +21,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIGariGloomF","ID9500",1)
-	DisplayString("Garrick",~For-forgive if my s-songs don't have q-quite the imp-impact they usually d-do. My v-voice seems to freeze over as f-fast as it can leave my lips.~)
+	DisplayString("Garrick",@2551 /* For-forgive if my s-songs don't have q-quite the imp-impact they usually d-do. My v-voice seems to freeze over as f-fast as it can leave my lips. */)
 END

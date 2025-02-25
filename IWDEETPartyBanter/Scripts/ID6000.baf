@@ -8,7 +8,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIValyDDExt","ID6000",1)
-	DisplayString("Valygar",~Hold. This area is well trod. The tracks show a march of humanoids... orcs. No, heavier. Orogs, I believe.~)
+	DisplayString("Valygar",@1600 /* Hold. This area is well trod. The tracks show a march of humanoids... orcs. No, heavier. Orogs, I believe. */)
 END
 
 IF
@@ -21,5 +21,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIKiveDDExt","ID6000",1)
-	DisplayString("Kiven",~Hmph. Even if the tracks were not obvious, I can hear a loud snorting from around the bend, up ahead. More orcs. They will feel my fury.~)
+	DisplayString("Kiven",@1601 /* Hmph. Even if the tracks were not obvious, I can hear a loud snorting from around the bend, up ahead. More orcs. They will feel my fury. */)
 END

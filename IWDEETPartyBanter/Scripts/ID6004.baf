@@ -8,7 +8,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIYislDDMoraTemp","ID6004",1)
-	DisplayString("Yeslick",~*gasp* Will ye look at that. A forge temple to the greatest of me gods. But blast and damnation, it ain't right fer it tae be so cold. Molten metal should be alightin' the room with Moradin's favor. What damnable curse has taken its warmth so?~)
+	DisplayString("Yeslick",@1800 /* *gasp* Will ye look at that. A forge temple to the greatest of me gods. But blast and damnation, it ain't right fer it tae be so cold. Molten metal should be alightin' the room with Moradin's favor. What damnable curse has taken its warmth so? */)
 END
 
 IF
@@ -21,5 +21,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIKorgDDMoraTemp","ID6004",1)
-	DisplayString("Korgan",~Not so mighty now are ye, "Soul Forger". Just goes tae show ye, every temple's just a tomb waitin' ta be filled.~)
+	DisplayString("Korgan",@1801 /* Not so mighty now are ye, "Soul Forger". Just goes tae show ye, every temple's just a tomb waitin' ta be filled. */)
 END

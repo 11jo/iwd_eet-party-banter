@@ -8,7 +8,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIVicoDDEntry","ID6001",1)
-	DisplayString("Viconia",~This cavern goes deep. We drow are attuned to such things. It may even lead into the Underdark itself.~)
+	DisplayString("Viconia",@1650 /* This cavern goes deep. We drow are attuned to such things. It may even lead into the Underdark itself. */)
 END
 
 IF
@@ -21,5 +21,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WICernDDEntry","ID6001",1)
-	DisplayString("Cernd",~See the mushroom groves, which reflect the nature of the forests above ground but without a need for light to sustain them. Nature truly is miraculous in all of its aspects.~)
+	DisplayString("Cernd",@1651 /* See the mushroom groves, which reflect the nature of the forests above ground but without a need for light to sustain them. Nature truly is miraculous in all of its aspects. */)
 END

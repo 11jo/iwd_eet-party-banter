@@ -8,7 +8,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIAnoBarbCamp","ID9200",1)
-	DisplayString("Anomen",~Hmph. This is more serious than I thought. These barbarians are not just readying for war, they are a wound spring that only a gentle nudge will loose. I'll fight these savages if I must, but I am not eager to do so.~)
+	DisplayString("Anomen",@2450 /* Hmph. This is more serious than I thought. These barbarians are not just readying for war, they are a wound spring that only a gentle nudge will loose. I'll fight these savages if I must, but I am not eager to do so. */)
 END
 
 IF
@@ -21,5 +21,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIBranBarbCamp","ID9200",1)
-	DisplayString("Branwen",~They heed the call of Tempus and ready themselves for war. But could this really be what Tempus wills? He has been silent to my prayers thus far. Bloodshed honors him, but not when tis done so needless.~)
+	DisplayString("Branwen",@2451 /* They heed the call of Tempus and ready themselves for war. But could this really be what Tempus wills? He has been silent to my prayers thus far. Bloodshed honors him, but not when tis done so needless. */)
 END

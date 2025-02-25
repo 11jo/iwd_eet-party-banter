@@ -8,7 +8,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIKivaSevHandEx","ID5000",1)
-	DisplayString("Kivan",~The Hand of the Seldarine... never did I think I would see it. I was too young to answer the call then, but looking on it now, I can't help but wonder how my life would have been different if I was a few years older. Never would I have met my Deheriana. Never she would have... no, no I shouldn’t think of this any further. Let us go forward and whatever we find, please step with respect for my people who fell here.~)
+	DisplayString("Kivan",@1350 /* The Hand of the Seldarine... never did I think I would see it. I was too young to answer the call then, but looking on it now, I can't help but wonder how my life would have been different if I was a few years older. Never would I have met my Deheriana. Never she would have... no, no I shouldn’t think of this any further. Let us go forward and whatever we find, please step with respect for my people who fell here. */)
 END
 
 IF
@@ -21,5 +21,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIVicoSevHandEx","ID5000",1)
-	DisplayString("Viconia",~There was a time I would feel a sense of triumph seeing my surface 'brethren' in such a state of decay. I don't now. I feel... nothing at all. Let us do what we came to do quickly. I would leave as soon as possible.~)
+	DisplayString("Viconia",@1351 /* There was a time I would feel a sense of triumph seeing my surface 'brethren' in such a state of decay. I don't now. I feel... nothing at all. Let us do what we came to do quickly. I would leave as soon as possible. */)
 END

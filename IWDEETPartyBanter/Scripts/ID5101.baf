@@ -8,5 +8,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIImoeSevLabel","ID5101",1)
-	DisplayStringHead("Imoen",~Woah now, watch the edges. That's a long fall. *whistles*~)
+	DisplayStringHead("Imoen",@1450 /* Woah now, watch the edges. That's a long fall. *whistles* */)
 END

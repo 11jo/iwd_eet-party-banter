@@ -3,7 +3,14 @@ AUTHOR ~AWizardDidIt~
 
 VERSION ~v1.0~
 
-BEGIN ~Install IWDEET Party Banter~
+AUTO_TRA ~IWDEETPartyBanter/Languages/%s~
+AUTO_TRA ~IWDEETPartyBanter/Languages/%s/baf_tra~
+
+LANGUAGE ~English~
+         ~English~
+         ~IWDEETPartyBanter/Languages/English/Setup-IWDEETPartyBanter.tra~
+
+BEGIN @0
 
 COMPILE ~IWDEETPartyBanter/Dialogue/Interject.d~
 

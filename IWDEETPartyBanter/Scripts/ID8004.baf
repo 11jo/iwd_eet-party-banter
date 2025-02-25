@@ -8,7 +8,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIAeriGnomCamp","ID8004",1)
-	DisplayString("Aerie",~It's refreshing to see the gnomish people have been able to escape into this cave. I wonder if mister Quayle has any relatives around here *giggles*.~)
+	DisplayString("Aerie",@2250 /* It's refreshing to see the gnomish people have been able to escape into this cave. I wonder if mister Quayle has any relatives around here *giggles*. */)
 END
 
 IF
@@ -21,5 +21,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIQuayGnomCamp","ID8004",1)
-	DisplayString("Quayle",~Wow, impressive. Impressively STUPID that is. What a great idea out right under the nose of slavers, I'm in awe of their briliance. That's sarcasm, I'm being sarcastic, by the way. Not that Svirfneblins would know sarcasm from a hole in the ground. Dinguses, each and every one of them.~)
+	DisplayString("Quayle",@2251 /* Wow, impressive. Impressively STUPID that is. What a great idea out right under the nose of slavers, I'm in awe of their briliance. That's sarcasm, I'm being sarcastic, by the way. Not that Svirfneblins would know sarcasm from a hole in the ground. Dinguses, each and every one of them. */)
 END

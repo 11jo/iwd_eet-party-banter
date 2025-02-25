@@ -8,7 +8,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WICoraSevHand4","ID5004",1)
-	DisplayString("Coran",~This place was once one of beauty and comfort to my kind. And now it is reduced to ruin and shadows. Forgive me, even I feel the bitter pang of sadness here.~)
+	DisplayString("Coran",@1400 /* This place was once one of beauty and comfort to my kind. And now it is reduced to ruin and shadows. Forgive me, even I feel the bitter pang of sadness here. */)
 END
 
 IF
@@ -21,5 +21,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIDornSevHand4","ID5004",1)
-	DisplayString("Dorn",~See how the elves here were destroyed so utterly, their spirits can only linger in sorrow at what has been wrought. Ah, it is... invigorating.~)
+	DisplayString("Dorn",@1401 /* See how the elves here were destroyed so utterly, their spirits can only linger in sorrow at what has been wrought. Ah, it is... invigorating. */)
 END

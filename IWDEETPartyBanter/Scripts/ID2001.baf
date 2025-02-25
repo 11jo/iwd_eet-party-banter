@@ -8,5 +8,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIAlorGobCaveEx","ID2001",1)
-	DisplayStringHead("Alora",~Oh boy, it sure is chilly. I should have worn shoes. I’ll lose feeling in my little toesies!~)
+	DisplayStringHead("Alora",@400 /* Oh boy, it sure is chilly. I should have worn shoes. I’ll lose feeling in my little toesies! */)
 END
