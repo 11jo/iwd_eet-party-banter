@@ -165,7 +165,7 @@ I_C_T3 DEREVAIN 0 WIDEREVAIN0
 == DEREVAIN IF ~InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID)~ THEN ~And let you take all the glory of exploring this untamed wild? Ah, I could never live with myself. Besides... I think I need this time away. It's best for everyone.~
 == XANJ IF ~InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID)~ THEN ~I understand. Farewell Erevain.~
 == DEREVAIN IF ~InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID)~ THEN ~And you as well Xan. I'll see you back in Evereska.~
-== XANJ IF ~InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID)~ THEN ~Should we both make it. I'll not dare to hope but... peraps.~
+== XANJ IF ~InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID)~ THEN ~Should we both make it. I'll not dare to hope but... perhaps.~
 END
 
 I_C_T3 DEREVAIN 9 WIDEREVAIN9
