@@ -8,7 +8,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIAlorWyrmTooth","ID7005",1)
-	DisplayStringHead("Alora",~Oh this is neat! Whooooo wants to go sledding!?~)
+	DisplayStringHead("Alora",@2150 /* Oh this is neat! Whooooo wants to go sledding!? */)
 END
 
 IF
@@ -21,5 +21,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIMinscAquaEx","ID7005",1)
-	DisplayString("Minsc",~Boo, watch your step. The ice here is slippery, I would not want to see you fall on your little hamster butt! You must walk like a Rashemi, with legs wide!~)
+	DisplayString("Minsc",@2151 /* Boo, watch your step. The ice here is slippery, I would not want to see you fall on your little hamster butt! You must walk like a Rashemi, with legs wide! */)
 END

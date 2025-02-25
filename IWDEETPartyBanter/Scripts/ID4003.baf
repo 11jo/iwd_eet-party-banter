@@ -8,5 +8,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIHexxDragEyeLvl3","ID4003",1)
-	DisplayString("Hexxat",~Beware the planks on the floor. It would be trivially easy to hide a pressure plate beneath.~)
+	DisplayString("Hexxat",@1200 /* Beware the planks on the floor. It would be trivially easy to hide a pressure plate beneath. */)
 END

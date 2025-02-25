@@ -8,7 +8,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIKhalSeaofIce","ID9600",1)
-	DisplayString("Khalid",~R-ready yourselves, we must assault the dragon's fortress b-before they can array a defense against us. Form up, and st-strike quickly.~)
+	DisplayString("Khalid",@2700 /* R-ready yourselves, we must assault the dragon's fortress b-before they can array a defense against us. Form up, and st-strike quickly. */)
 END
 
 IF
@@ -21,5 +21,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIMazzSeaofIce","ID9600",1)
-	DisplayString("Mazzy",~Then this is where it ends. Though I feel a bitter sadness before us, we must commit to the task and ensure the Ten Towns are safe once again. Onward friends!~)
+	DisplayString("Mazzy",@2701 /* Then this is where it ends. Though I feel a bitter sadness before us, we must commit to the task and ensure the Ten Towns are safe once again. Onward friends! */)
 END

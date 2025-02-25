@@ -8,5 +8,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WINeeraTargosCity","IW1100",1)
-	DisplayString("Neera",~You don't suppose they have a magic shop here do you? I may have umm... polymorphed my err... well my unmentionables shall we say... into a live rabbit. It's a really cute rabbit. Even has pink fur just like my, err well nevermind with that. Anyways I liked that pair so I really need the materials to change it back.~)
+	DisplayString("Neera",@2800 /* You don't suppose they have a magic shop here do you? I may have umm... polymorphed my err... well my unmentionables shall we say... into a live rabbit. It's a really cute rabbit. Even has pink fur just like my, err well nevermind with that. Anyways I liked that pair so I really need the materials to change it back. */)
 END

@@ -2,11 +2,11 @@ IF
   Global("WIImoeSevLabel","ID5101",0)
   !StateCheck(Player1,CD_STATE_NOTVALID)
   CombatCounter(0)
-  InParty("Imoen")
-  InMyArea("Imoen") 
-  !StateCheck("Imoen",STATE_SLEEPING)
+  InParty("Imoen2")
+  InMyArea("Imoen2") 
+  !StateCheck("Imoen2",STATE_SLEEPING)
 THEN
   RESPONSE #100
     SetGlobal("WIImoeSevLabel","ID5101",1)
-	DisplayStringHead("Imoen",~Woah now, watch the edges. That's a long fall. *whistles*~)
+	DisplayStringHead("Imoen2",@1450 /* Woah now, watch the edges. That's a long fall. *whistles* */)
 END

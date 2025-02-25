@@ -8,5 +8,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WICoraRootTav","ID2111",1)
-	DisplayString("Coran",~I've always enjoyed visiting small taverns like these during my travels. You can spend many pleasant nights regaling the small folk with stories of adventure and peril in the outside world. Especially the women folk. Ah, I see that look in your eye. Do not worry, I promise I'll limit any entanglements for the duration of our stay.~)
+	DisplayString("Coran",@700 /* I've always enjoyed visiting small taverns like these during my travels. You can spend many pleasant nights regaling the small folk with stories of adventure and peril in the outside world. Especially the women folk. Ah, I see that look in your eye. Do not worry, I promise I'll limit any entanglements for the duration of our stay. */)
 END

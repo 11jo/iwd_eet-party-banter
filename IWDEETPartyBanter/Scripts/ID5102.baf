@@ -8,5 +8,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIEdwiSevLibrary","ID5102",1)
-	DisplayString("Edwin",~Now -this- looks to be a repository of knowledge worthy of study (one can only hope it is not filled with useless elven poetry and histories)~)
+	DisplayString("Edwin",@1500 /* Now -this- looks to be a repository of knowledge worthy of study (one can only hope it is not filled with useless elven poetry and histories) */)
 END

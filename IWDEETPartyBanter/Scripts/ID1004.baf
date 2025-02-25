@@ -2,11 +2,11 @@ IF
   Global("WISharHrotHome","ID1004",0)
   !StateCheck(Player1,CD_STATE_NOTVALID)
   CombatCounter(0)
-  InParty("Shar-Teel")
-  InParty("Shar-Teel")
-  !StateCheck("Shar-Teel",STATE_SLEEPING)
+  InParty("Sharteel")
+  InParty("Sharteel")
+  !StateCheck("Sharteel",STATE_SLEEPING)
 THEN
   RESPONSE #100
     SetGlobal("WISharHrotHome","ID1004",1)
-	DisplayString("Shar-Teel",~This town’s only defender is some past-his-prime male simpleton with a sword? Do they not have to fend off barbarian attacks? Putting their men to the sword might be a service to them. At least then their women might grow a backbone enough to protect themselves.~)
+	DisplayString("Sharteel",@150 /* This town’s only defender is some past-his-prime male simpleton with a sword? Do they not have to fend off barbarian attacks? Putting their men to the sword might be a service to them. At least then their women might grow a backbone enough to protect themselves. */)
 END

@@ -8,18 +8,18 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIKagaLDD","ID8001",1)
-	DisplayString("Kagain",~Place like this, must have been overflowing with gold once upon a time. Woulda liked to see it before it all went to shit.~)
+	DisplayString("Kagain",@2200 /* Place like this, must have been overflowing with gold once upon a time. Woulda liked to see it before it all went to shit. */)
 END
 
 IF
   Global("WIImoeLDD","ID8001",0)
   !StateCheck(Player1,CD_STATE_NOTVALID)
   CombatCounter(0)
-  InParty("Imoen")
-  InMyArea("Imoen") 
-  !StateCheck("Imoen",STATE_SLEEPING)
+  InParty("Imoen2")
+  InMyArea("Imoen2") 
+  !StateCheck("Imoen2",STATE_SLEEPING)
 THEN
   RESPONSE #100
     SetGlobal("WIImoeLDD","ID8001",1)
-	DisplayString("Imoen",~Place's got the look of big ole mouse trap. Breakin' inta here's gonna be tougher than stealin' inta Lady Jannath's boudoir, and twice as interesting. Not that I'd uh, ever done such a thing. Or thought about it. Uh, keepin' my eyes open! Step soft n' such!~)
+	DisplayString("Imoen2",@2201 /* Place's got the look of big ole mouse trap. Breakin' inta here's gonna be tougher than stealin' inta Lady Jannath's boudoir, and twice as interesting. Not that I'd uh, ever done such a thing. Or thought about it. Uh, keepin' my eyes open! Step soft n' such! */)
 END

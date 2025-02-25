@@ -8,5 +8,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIHexxPuzzRoom","ID6010",1)
-	DisplayString("Hexxat",~Observe the floor. The plates seem to lock or trigger based on the order stepped upon. Stepping on them in the wrong order would be inadvisable. The symbols on them are similar to the circular table upstairs. Perhaps it would be advisable to take a look at the table upstairs to find a pattern.~)
+	DisplayString("Hexxat",@1900 /* Observe the floor. The plates seem to lock or trigger based on the order stepped upon. Stepping on them in the wrong order would be inadvisable. The symbols on them are similar to the circular table upstairs. Perhaps it would be advisable to take a look at the table upstairs to find a pattern. */)
 END

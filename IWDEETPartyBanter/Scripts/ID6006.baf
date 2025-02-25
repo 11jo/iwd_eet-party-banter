@@ -8,7 +8,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIHexxHallHero","ID6006",1)
-	DisplayString("Hexxat",~This vault holds the dwarves greatest heroes. They would likely go to great lengths to protect them by both mechanical trap as well as divine magic. Leave no tomb unexamined before accessing it or you will surely trigger something fatal.~)
+	DisplayString("Hexxat",@1850 /* This vault holds the dwarves greatest heroes. They would likely go to great lengths to protect them by both mechanical trap as well as divine magic. Leave no tomb unexamined before accessing it or you will surely trigger something fatal. */)
 END
 
 IF
@@ -22,7 +22,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIXzarHallHero","ID6006",1)
-	DisplayString("Xzar",~What rubbish. Why, I’d scarcely house the soul of my childhood cat in it. Ah Samson, you were a good cat, but then what 8 year old can contain their curiosity of the inner workings of a fine furred companion?.~)
+	DisplayString("Xzar",@1851 /* What rubbish. Why, I’d scarcely house the soul of my childhood cat in it. Ah Samson, you were a good cat, but then what 8 year old can contain their curiosity of the inner workings of a fine furred companion?. */)
 END
 
 IF
@@ -36,5 +36,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIAeriHallHero","ID6006",1)
-	DisplayString("Aerie",~This is it! Proof that Evayne helped the dwarves and they honored her as a hero! We must present this to Larrel at once! It's the proof we need to show him what really happened.~)
+	DisplayString("Aerie",@1852 /* This is it! Proof that Evayne helped the dwarves and they honored her as a hero! We must present this to Larrel at once! It's the proof we need to show him what really happened. */)
 END

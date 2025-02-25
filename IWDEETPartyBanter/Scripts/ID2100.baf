@@ -8,7 +8,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIJanKuldahar","ID2100",1)
-	DisplayString("Jan",~Well you look at that. Why this reminds me of the time... wait, is that an airship? Does that mean... a Fiddlebender? That is no good, no good at all. Never trust a Fiddlebender, their family has been feuding with the Jansens for generations ever since a Fiddlebender sold my great granduncle Tambo 30 stones of magical fertilizer for a dozen coppers. It would have been a fine deal on the Jansen side, but that fertilizer turned out to be wyvern dung which immediately and explosively killed every root vegetable on the farm and took my granduncle’s left arm. Yes, the two families haven’t gotten along since.~)
+	DisplayString("Jan",@450 /* Well you look at that. Why this reminds me of the time... wait, is that an airship? Does that mean... a Fiddlebender? That is no good, no good at all. Never trust a Fiddlebender, their family has been feuding with the Jansens for generations ever since a Fiddlebender sold my great granduncle Tambo 30 stones of magical fertilizer for a dozen coppers. It would have been a fine deal on the Jansen side, but that fertilizer turned out to be wyvern dung which immediately and explosively killed every root vegetable on the farm and took my granduncle’s left arm. Yes, the two families haven’t gotten along since. */)
 END
 
 IF
@@ -21,18 +21,18 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WITiaxKuldahar","ID2100",1)
-	DisplayString("Tiax",~Tiax thinks that this tree would make for a fitting throne. Fetch your axes and begin cutting this instant! And make sure the back has some lean in it! Tiax would like to recline as he rules.~)
+	DisplayString("Tiax",@451 /* Tiax thinks that this tree would make for a fitting throne. Fetch your axes and begin cutting this instant! And make sure the back has some lean in it! Tiax would like to recline as he rules. */)
 END
 
 IF
   Global("WIHaerKuldahar","ID2100",0)
   !StateCheck(Player1,CD_STATE_NOTVALID)
   CombatCounter(0)
-  InParty("Haer'Dalis")
-  InMyArea("Haer'Dalis")  
-  !StateCheck("Haer'Dalis",STATE_SLEEPING)
+  InParty("HaerDalis")
+  InMyArea("HaerDalis")  
+  !StateCheck("HaerDalis",STATE_SLEEPING)
 THEN
   RESPONSE #100
     SetGlobal("WIHaerKuldahar","ID2100",1)
-	DisplayString("Haer'Dalis",~Do our feet still touch the Prime? Have we wandered through some hidden hollow into a portal to Aboria itself? It seems that celestial vistas can exist outside the domain of the gods indeed!~)
+	DisplayString("HaerDalis",@452 /* Do our feet still touch the Prime? Have we wandered through some hidden hollow into a portal to Aboria itself? It seems that celestial vistas can exist outside the domain of the gods indeed! */)
 END

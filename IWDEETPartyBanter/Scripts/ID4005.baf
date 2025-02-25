@@ -8,7 +8,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIHexxDragEyeLvl5","ID4005",1)
-	DisplayString("Hexxat",~The construction of this temple is immaculate. They are built with intruders in mind. Given its current occupants, expect frequent traps of poison and acid.~)
+	DisplayString("Hexxat",@1300 /* The construction of this temple is immaculate. They are built with intruders in mind. Given its current occupants, expect frequent traps of poison and acid. */)
 END
 
 IF
@@ -21,5 +21,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WINeerDragEyeLvl5","ID4005",1)
-	DisplayString("Neera",~Ah! Creepy girl! Creepy girl! What, don't freaky little girls spook anyone else out? Just me, huh?~)
+	DisplayString("Neera",@1301 /* Ah! Creepy girl! Creepy girl! What, don't freaky little girls spook anyone else out? Just me, huh? */)
 END

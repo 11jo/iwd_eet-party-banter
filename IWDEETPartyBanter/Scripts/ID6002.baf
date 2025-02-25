@@ -8,5 +8,5 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("WIVicoBarracks","ID6002",1)
-	DisplayString("Viconia",~I feel the presence of my dark kin here. Hmm... we are not so far from... it would be Rilauven. Like with any encounter with my kin, expect poisoned weapons and formidable magic. Do not hesitate to kill each and every one of them.~)
+	DisplayString("Viconia",@1700 /* I feel the presence of my dark kin here. Hmm... we are not so far from... it would be Rilauven. Like with any encounter with my kin, expect poisoned weapons and formidable magic. Do not hesitate to kill each and every one of them. */)
 END
