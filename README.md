@@ -22,7 +22,7 @@ This mod adds interjections and area comments to every base companion in both BG
 
 ### Installation :
 
-Download IWDEETPartyBanter.zip and unzip the mod into your Baldur’s Gate 2 directory where you have EET installed, making sure that the folder “IWDEETPartyBanter” and file Setup-IWDEETPartyBanter is in your base game directory (the same location as the chitin.key. Run the Setup-IWDEETPartyBanter weidu exe file to start installation.
+Download iwd_eet-party-banter.zip and unzip the mod into your Baldur’s Gate 2 directory where you have EET installed, making sure that the folder “iwd_eet-party-banter” and file Setup-iwd_eet-party-banter is in your base game directory (the same location as the chitin.key. Run the Setup-iwd_eet-party-banter weidu exe file to start installation.
 
 Note:
 The mod should only be played on a fresh save. Uninstalling the mod and loading up a save that had been installed will probably not totally break your save, but may result in weirdness.
