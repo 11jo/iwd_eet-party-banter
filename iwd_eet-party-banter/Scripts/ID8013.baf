@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Keldorn")
   InMyArea("Keldorn") 
-  !StateCheck("Keldorn",STATE_SLEEPING)
+  !StateCheck("Keldorn",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIKeldLDDPoq","ID8013",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Ajantis")
   InMyArea("Ajantis") 
-  !StateCheck("Ajantis",STATE_SLEEPING)
+  !StateCheck("Ajantis",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIAjanLDDPoq","ID8013",1)

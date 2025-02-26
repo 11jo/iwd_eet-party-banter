@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Viconia")
   InMyArea("Viconia") 
-  !StateCheck("Viconia",STATE_SLEEPING)
+  !StateCheck("Viconia",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIVicoDDEntry","ID6001",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Cernd")
   InMyArea("Cernd") 
-  !StateCheck("Cernd",STATE_SLEEPING)
+  !StateCheck("Cernd",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WICernDDEntry","ID6001",1)

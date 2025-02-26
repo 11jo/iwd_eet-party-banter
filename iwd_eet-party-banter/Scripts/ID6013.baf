@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Yeslick")
   InMyArea("Yeslick") 
-  !StateCheck("Yeslick",STATE_SLEEPING)
+  !StateCheck("Yeslick",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIYislDDMoraTempLive","ID6013",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Keldorn")
   InMyArea("Keldorn") 
-  !StateCheck("Keldorn",STATE_SLEEPING)
+  !StateCheck("Keldorn",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIKeldDDMoraTempLive","ID6013",1)

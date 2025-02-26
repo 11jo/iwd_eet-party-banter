@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Garrick")
   InMyArea("Garrick")
-  !StateCheck("Garrick",STATE_SLEEPING)
+  !StateCheck("Garrick",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIGariFiddleship","ID2108",1)

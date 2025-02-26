@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Branwen")
   InMyArea("Branwen")
-  !StateCheck("Branwen",STATE_SLEEPING)
+  !StateCheck("Branwen",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIBranTempleTempus","ID1001",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InMyArea("Yeslick")
   InParty("Yeslick")
-  !StateCheck("Yeslick",STATE_SLEEPING)
+  !StateCheck("Yeslick",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIYeslTempleTempus","ID1001",1)
@@ -30,7 +30,7 @@ IF
   CombatCounter(0)
   InMyArea("Anomen")  
   InParty("Anomen")
-  !StateCheck("Anomen",STATE_SLEEPING)
+  !StateCheck("Anomen",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIAnomTempleTempus","ID1001",1)

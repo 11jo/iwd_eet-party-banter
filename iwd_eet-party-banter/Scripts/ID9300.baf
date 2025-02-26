@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Branwen")
   InMyArea("Branwen")
-  !StateCheck("Branwen",STATE_SLEEPING)
+  !StateCheck("Branwen",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIBranBuriIsle","ID9300",1)

@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Jan")
   InMyArea("Jan")  
-  !StateCheck("Jan",STATE_SLEEPING)
+  !StateCheck("Jan",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIJanOrcCaveInt","ID1201",1)

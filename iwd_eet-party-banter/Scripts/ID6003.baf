@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Khalid")
   InMyArea("Khalid") 
-  !StateCheck("Khalid",STATE_SLEEPING)
+  !StateCheck("Khalid",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIKhalDDOC","ID6003",1)

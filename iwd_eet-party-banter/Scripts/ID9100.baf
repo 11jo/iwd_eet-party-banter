@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Dorn")
   InMyArea("Dorn")
-  !StateCheck("Dorn",STATE_SLEEPING)
+  !StateCheck("Dorn",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIDornLonewood","ID9100",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Baeloth")
   InMyArea("Baeloth")
-  !StateCheck("Baeloth",STATE_SLEEPING)
+  !StateCheck("Baeloth",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIBaelLonewood","ID9100",1)

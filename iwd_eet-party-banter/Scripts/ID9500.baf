@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("HaerDalis")
   InMyArea("HaerDalis")
-  !StateCheck("HaerDalis",STATE_SLEEPING)
+  !StateCheck("HaerDalis",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIHaerGloomF","ID9500",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Garrick")
   InMyArea("Garrick")
-  !StateCheck("Garrick",STATE_SLEEPING)
+  !StateCheck("Garrick",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIGariGloomF","ID9500",1)

@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InMyArea("Rasaad") 
   InParty("Rasaad")
-  !StateCheck("Rasaad",STATE_SLEEPING)
+  !StateCheck("Rasaad",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIRasaTempForGod","ID3602",1)

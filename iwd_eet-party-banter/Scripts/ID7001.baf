@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Cernd")
   InMyArea("Cernd")
-  !StateCheck("Cernd",STATE_SLEEPING)
+  !StateCheck("Cernd",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WICernMuseum","ID7001",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Faldorn")
   InMyArea("Faldorn")
-  !StateCheck("Faldorn",STATE_SLEEPING)
+  !StateCheck("Faldorn",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIFaldMuseum","ID7001",1)

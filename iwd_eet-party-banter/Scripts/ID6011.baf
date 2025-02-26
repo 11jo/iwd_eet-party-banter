@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Quayle")
   InMyArea("Quayle") 
-  !StateCheck("Quayle",STATE_SLEEPING)
+  !StateCheck("Quayle",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIQuayDDMachine","ID6011",1)

@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InMyArea("Skie") 
   InParty("Skie")
-  !StateCheck("Skie",STATE_SLEEPING)
+  !StateCheck("Skie",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WISkieGerthShop","ID2113",1)

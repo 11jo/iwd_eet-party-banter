@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Alora")
   InMyArea("Alora")
-  !StateCheck("Alora",STATE_SLEEPING)
+  !StateCheck("Alora",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIAlorGobCaveEx","ID2001",1)

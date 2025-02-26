@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Hexxat")
   InMyArea("Hexxat") 
-  !StateCheck("Hexxat",STATE_SLEEPING)
+  !StateCheck("Hexxat",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIHexxKressTomb","ID3501",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Montaron")
   InMyArea("Montaron") 
-  !StateCheck("Montaron",STATE_SLEEPING)
+  !StateCheck("Montaron",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIMontKressTomb","ID3501",1)

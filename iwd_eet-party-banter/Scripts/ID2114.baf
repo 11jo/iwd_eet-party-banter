@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Eldoth")
   InParty("Eldoth")
-  !StateCheck("Eldoth",STATE_SLEEPING)
+  !StateCheck("Eldoth",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIEldoEveShade","ID2114",1)

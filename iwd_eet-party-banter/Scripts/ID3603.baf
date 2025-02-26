@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Safana")
   InMyArea("Safana")  
-  !StateCheck("Safana",STATE_SLEEPING)
+  !StateCheck("Safana",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WISafaTempForGod","ID3603",1)
