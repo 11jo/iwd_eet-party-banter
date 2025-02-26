@@ -4408,7 +4408,7 @@ I_C_T 10MAGDR 18 WIMagdr18
 END
 
 I_C_T 10REIG 0 WI10Reig0
-== HEXXATJ IF ~InParty("Reig") InMyArea("Reig") !StateCheck("Reig",CD_STATE_NOTVALID)~ THEN @11804 /* *sniff* He's bleeding quite badly. Not really my type though. */
+== HEXXATJ IF ~InParty("Hexxat") InMyArea("Hexxat") !StateCheck("Hexxat",CD_STATE_NOTVALID)~ THEN @11804 /* *sniff* He's bleeding quite badly. Not really my type though. */
 END
 
 I_C_T 10REIG 2 WI10Reig2
