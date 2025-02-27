@@ -7,7 +7,7 @@
 
 ### Compatibility :
 
-- Install before both iwd_eet_end and EET_end mods
+- Install after Setup-iwd1_eet and Setup-iwd2_eet but before both iwd_eet_end and EET_end mods
 
 
 ### Introduction :
