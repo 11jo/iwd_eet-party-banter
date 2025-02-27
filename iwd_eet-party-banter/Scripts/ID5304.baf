@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Jaheira")
   InMyArea("Jaheira") 
-  !StateCheck("Jaheira",STATE_SLEEPING)
+  !StateCheck("Jaheira",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIJaheSevArbor","ID5304",1)

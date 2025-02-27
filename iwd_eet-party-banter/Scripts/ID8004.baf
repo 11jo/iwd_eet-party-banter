@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Aerie")
   InMyArea("Aerie") 
-  !StateCheck("Aerie",STATE_SLEEPING)
+  !StateCheck("Aerie",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIAeriGnomCamp","ID8004",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Quayle")
   InMyArea("Quayle") 
-  !StateCheck("Quayle",STATE_SLEEPING)
+  !StateCheck("Quayle",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIQuayGnomCamp","ID8004",1)

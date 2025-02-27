@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Rasaad")
   InMyArea("Rasaad") 
-  !StateCheck("Rasaad",STATE_SLEEPING)
+  !StateCheck("Rasaad",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIRasaGloomfrost2","ID9502",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Safana")
   InMyArea("Safana") 
-  !StateCheck("Safana",STATE_SLEEPING)
+  !StateCheck("Safana",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WISafaGloomfrost2","ID9502",1)

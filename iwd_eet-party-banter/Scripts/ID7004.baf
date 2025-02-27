@@ -5,7 +5,7 @@ IF
   CombatCounter(0)
   InParty("Sharteel")
   InParty("Sharteel")
-  !StateCheck("Sharteel",STATE_SLEEPING)
+  !StateCheck("Sharteel",CD_STATE_NOTVALID)
   !Dead("Joril")
 THEN
   RESPONSE #100
@@ -20,7 +20,7 @@ IF
   CombatCounter(0)
   InParty("Sharteel")
   InParty("Sharteel")
-  !StateCheck("Sharteel",STATE_SLEEPING)
+  !StateCheck("Sharteel",CD_STATE_NOTVALID)
   Dead("Joril")
 THEN
   RESPONSE #100

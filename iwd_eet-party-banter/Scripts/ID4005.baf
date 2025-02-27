@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Hexxat")
   InMyArea("Hexxat")
-  !StateCheck("Hexxat",STATE_SLEEPING)
+  !StateCheck("Hexxat",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIHexxDragEyeLvl5","ID4005",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Neera")
   InMyArea("Neera")
-  !StateCheck("Neera",STATE_SLEEPING)
+  !StateCheck("Neera",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WINeerDragEyeLvl5","ID4005",1)

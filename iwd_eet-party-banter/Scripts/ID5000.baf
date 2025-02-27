@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Kivan")
   InMyArea("Kivan") 
-  !StateCheck("Kivan",STATE_SLEEPING)
+  !StateCheck("Kivan",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIKivaSevHandEx","ID5000",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Viconia")
   InMyArea("Viconia") 
-  !StateCheck("Viconia",STATE_SLEEPING)
+  !StateCheck("Viconia",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIVicoSevHandEx","ID5000",1)

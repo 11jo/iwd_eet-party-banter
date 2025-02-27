@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Yoshimo")
   InMyArea("Yoshimo")
-  !StateCheck("Yoshimo",STATE_SLEEPING)
+  !StateCheck("Yoshimo",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIYoshKuldIlmater","ID2107",1)
@@ -18,7 +18,7 @@ IF
   CombatCounter(0)
   InParty("Kagain")
   InMyArea("Kagain")
-  !StateCheck("Kagain",STATE_SLEEPING)
+  !StateCheck("Kagain",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIKagaKuldIlmater","ID2107",1)

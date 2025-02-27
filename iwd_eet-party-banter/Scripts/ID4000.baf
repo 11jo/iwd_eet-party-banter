@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Baeloth")
   InParty("Baeloth")
-  !StateCheck("Baeloth",STATE_SLEEPING)
+  !StateCheck("Baeloth",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIBaelDragEyeEx","ID4000",1)

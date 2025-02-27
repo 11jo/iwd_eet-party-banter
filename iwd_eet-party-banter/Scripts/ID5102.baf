@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Edwin")
   InMyArea("Edwin") 
-  !StateCheck("Edwin",STATE_SLEEPING)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIEdwiSevLibrary","ID5102",1)

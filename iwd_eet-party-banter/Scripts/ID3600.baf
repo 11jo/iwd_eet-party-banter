@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Garrick")
   InMyArea("Garrick")
-  !StateCheck("Garrick",STATE_SLEEPING)
+  !StateCheck("Garrick",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("GarrTempForGod","ID3600",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Minsc")
   InMyArea("Minsc")
-  !StateCheck("Minsc",STATE_SLEEPING)
+  !StateCheck("Minsc",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("MinsTemForGodEx","ID3600",1)

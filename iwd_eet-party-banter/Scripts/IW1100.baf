@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InMyArea("Neera")  
   InParty("Neera")
-  !StateCheck("Neera",STATE_SLEEPING)
+  !StateCheck("Neera",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WINeeraTargosCity","IW1100",1)

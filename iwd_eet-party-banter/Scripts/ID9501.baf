@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Hexxat")
   InMyArea("Hexxat") 
-  !StateCheck("Hexxat",STATE_SLEEPING)
+  !StateCheck("Hexxat",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIHexxGloomfrost","ID9501",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Tiax")
   InMyArea("Tiax") 
-  !StateCheck("Tiax",STATE_SLEEPING)
+  !StateCheck("Tiax",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WITiaxGloomfrost","ID9501",1)

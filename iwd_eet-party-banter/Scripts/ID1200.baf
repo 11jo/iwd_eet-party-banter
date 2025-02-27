@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Valygar")
   InMyArea("Valygar")
-  !StateCheck("Valygar",STATE_SLEEPING)
+  !StateCheck("Valygar",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIValyOrcCaveEx","ID1200",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Kivan")
   InMyArea("Kivan")
-  !StateCheck("Kivan",STATE_SLEEPING)
+  !StateCheck("Kivan",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIKivaOrcCaveEx","ID1200",1)

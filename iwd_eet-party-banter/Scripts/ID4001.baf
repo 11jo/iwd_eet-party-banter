@@ -5,7 +5,7 @@ IF
   CombatCounter(0)
   InParty("Xan")
   InMyArea("Branwen")
-  !StateCheck("Xan",STATE_SLEEPING)
+  !StateCheck("Xan",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIXanDragEye","ID4001",1)

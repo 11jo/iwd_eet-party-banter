@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Eldoth")
   InMyArea("Eldoth")
-  !StateCheck("Eldoth",STATE_SLEEPING)
+  !StateCheck("Eldoth",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIEldoWhistleGallo","ID9101",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Imoen2")
   InMyArea("Imoen2")
-  !StateCheck("Imoen2",STATE_SLEEPING)
+  !StateCheck("Imoen2",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIImoeWhistleGallo","ID9101",1)

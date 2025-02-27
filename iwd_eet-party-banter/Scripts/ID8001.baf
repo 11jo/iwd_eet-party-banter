@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Kagain")
   InMyArea("Kagain") 
-  !StateCheck("Kagain",STATE_SLEEPING)
+  !StateCheck("Kagain",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIKagaLDD","ID8001",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Imoen2")
   InMyArea("Imoen2") 
-  !StateCheck("Imoen2",STATE_SLEEPING)
+  !StateCheck("Imoen2",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIImoeLDD","ID8001",1)

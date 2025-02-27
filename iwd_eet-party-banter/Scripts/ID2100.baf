@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Jan")
   InMyArea("Jan")
-  !StateCheck("Jan",STATE_SLEEPING)
+  !StateCheck("Jan",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIJanKuldahar","ID2100",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Tiax")
   InMyArea("Tiax")
-  !StateCheck("Tiax",STATE_SLEEPING)
+  !StateCheck("Tiax",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WITiaxKuldahar","ID2100",1)
@@ -30,7 +30,7 @@ IF
   CombatCounter(0)
   InParty("HaerDalis")
   InMyArea("HaerDalis")  
-  !StateCheck("HaerDalis",STATE_SLEEPING)
+  !StateCheck("HaerDalis",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIHaerKuldahar","ID2100",1)

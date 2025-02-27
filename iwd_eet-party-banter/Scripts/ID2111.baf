@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Coran")
   InMyArea("Coran")
-  !StateCheck("Coran",STATE_SLEEPING)
+  !StateCheck("Coran",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WICoraRootTav","ID2111",1)

@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Ajantis")
   InMyArea("Ajantis")
-  !StateCheck("Ajantis",STATE_SLEEPING)
+  !StateCheck("Ajantis",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIAjantGaspHouse","ID1005",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Mazzy")
   InMyArea("Mazzy")
-  !StateCheck("Mazzy",STATE_SLEEPING)
+  !StateCheck("Mazzy",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIMazzyGaspHouse","ID1005",1)

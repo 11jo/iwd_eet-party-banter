@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Alora")
   InMyArea("Alora") 
-  !StateCheck("Alora",STATE_SLEEPING)
+  !StateCheck("Alora",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIAlorValeShad","ID3000",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Anomen")
   InMyArea("Anomen") 
-  !StateCheck("Anomen",STATE_SLEEPING)
+  !StateCheck("Anomen",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIAnomValeShad","ID3000",1)

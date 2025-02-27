@@ -207,8 +207,8 @@ I_C_T3 DEVERARD 10 WIDEVERARD10
 == KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID) InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @10114 /* Aye, that'd be a show worth watchin. And when the watchin was done, mayhaps worth wadin in ta see how many devils ya could kill before death finally came to ya. */
 END
 
-I_C_T3 DEVERARD 12 WIDEVERARD12
-== DEVERARD IF ~InParty("DEVERARD") InMyArea("DEVERARD") !StateCheck("DEVERARD",CD_STATE_NOTVALID)~ THEN @10115 /* The desperate often have visions of their gods parading before them and inspiring them to one insane act or another. Quite a difference from the Underdark. There, seeing your god in a moment of desperation usually is a portent of imminent doom. */
+I_C_T3 DEVERARD 12 WIDEVERARD12 
+== VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @10115 /* The desperate often have visions of their gods parading before them and inspiring them to one insane act or another. Quite a difference from the Underdark. There, seeing your god in a moment of desperation usually is a portent of imminent doom. */
 END
 
 I_C_T3 DEVERARD 16 WIDEVERARD16
@@ -4408,7 +4408,7 @@ I_C_T 10MAGDR 18 WIMagdr18
 END
 
 I_C_T 10REIG 0 WI10Reig0
-== HEXXATJ IF ~InParty("Reig") InMyArea("Reig") !StateCheck("Reig",CD_STATE_NOTVALID)~ THEN @11804 /* *sniff* He's bleeding quite badly. Not really my type though. */
+== HEXXATJ IF ~InParty("Hexxat") InMyArea("Hexxat") !StateCheck("Hexxat",CD_STATE_NOTVALID)~ THEN @11804 /* *sniff* He's bleeding quite badly. Not really my type though. */
 END
 
 I_C_T 10REIG 2 WI10Reig2

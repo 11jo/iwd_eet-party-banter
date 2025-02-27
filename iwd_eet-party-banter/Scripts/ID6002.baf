@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Viconia")
   InMyArea("Viconia") 
-  !StateCheck("Viconia",STATE_SLEEPING)
+  !StateCheck("Viconia",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIVicoBarracks","ID6002",1)

@@ -4,7 +4,7 @@ IF
   CombatCounter(0)
   InParty("Dynaheir")
   InMyArea("Dynaheir")
-  !StateCheck("Dynaheir",STATE_SLEEPING)
+  !StateCheck("Dynaheir",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WIDynaOrrickStudy","ID2102",1)
@@ -17,7 +17,7 @@ IF
   CombatCounter(0)
   InParty("Nalia")
   InMyArea("Nalia")
-  !StateCheck("Nalia",STATE_SLEEPING)
+  !StateCheck("Nalia",CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("WINaliaOrrickStudy","ID2102",1)
